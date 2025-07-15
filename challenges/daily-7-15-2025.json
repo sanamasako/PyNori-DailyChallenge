@@ -1,41 +1,44 @@
 {
   "type": "overworld",
-  "steps": 5,
-  "population": 37,
+  "steps": 100,
+  "population": 36,
   "enemypool": [
+    "Bayet",
     "Drizzly Bear",
-    "Optimistick",
-    "Pessimistick",
+    "Oh Deer",
     "Clef",
     "Deer God",
-    "Bayet",
+    "Pessimistick",
+    "Siwi",
     "Simi",
     "Ore Gano"
   ],
   "PlayerStats": {
-    "HP": 203,
-    "ATK": 17,
-    "DEF": 3,
-    "Lvl": 1,
-    "VP": 100
+    "HP": 179,
+    "ATK": 9,
+    "DEF": 15,
+    "Lvl": 2,
+    "VP": 90
   },
   "Weather": {
-    "TempF": -21,
-    "TempC": -29.444444444444446,
-    "TempStateF": "deadly cold",
-    "TempStateC": "deadly cold",
-    "Humidity": "neutral",
-    "Wind": "deadly wind",
+    "TempF": 18,
+    "TempC": -7.777777777777779,
+    "TempStateF": "moderate cold",
+    "TempStateC": "moderate cold",
+    "Humidity": "very humid",
+    "Wind": "breezy",
     "Season": "Winter",
-    "Rain": "none",
+    "Rain": "light",
     "Conditions": [
+      "snow",
+      "thunder",
       "wind"
     ]
   },
   "CustomEnemy": {
-    "HP": 710,
-    "ATK": 30,
-    "DEF": 16,
-    "Lvl": 3
+    "HP": 435,
+    "ATK": 15,
+    "DEF": 12,
+    "Lvl": 2
   }
 }
