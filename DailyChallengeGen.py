@@ -23,22 +23,22 @@ def TempFetchCelsius(C):
 	else: return "deadly heat"
 
 def GenerateChallenge():
-	TempF = random.randint(-40,120); TempC = (TempF-32)*(5/9); RandPlayerDEF = random.randint(2,20); RandEnemDEF = random.randint(4,30)
+	TempF = random.randint(-40,120); TempC = (TempF-32)*(5/9); RandPlayerDEF = random.randint(2,20); RandEnemDEF = random.randint(4,30); StepsNeeded = random.randint(2,20)*5
 	EnemyList = ["Bayet", "Siwi", "Oh Deer", "Deer God", "Pessimistick", "Optimistick", "Drizzly Bear", "Simi", "Clef", "Ore Gano"]
 	Challenge = {
         "type": random.choice(["overworld", "battle"]), # the game will handle the difference between these two locally
-        "steps": random.randint(1,20)*5,
-        "population": random.randint(5,50),
+        "steps": StepsNeeded,
+        "population": min(random.randint(5,50),round(StepsNeeded/2)),
         "enemypool": random.sample(EnemyList, k=random.randint(4,len(EnemyList))),
         "PlayerStats": {
-            "HP": random.randint(10,300),
-            "ATK": random.randint(2,20),
-            "DEF": RandPlayerDEF,
-			"Lvl": (RandPlayerDEF//8)+1,
-            "VP": random.randint(1,20)*10
+		"HP": random.randint(10,300),
+		"ATK": random.randint(2,20),
+		"DEF": RandPlayerDEF,
+		"Lvl": (RandPlayerDEF//8)+1,
+		"VP": random.randint(1,20)*10
         },
         "Weather": {
-            "TempF": TempF, "TempC": TempC, "TempStateF": TempFetchFahrenheit(TempF), "TempStateC": TempFetchCelsius(TempC),
+		"TempF": TempF, "TempC": TempC, "TempStateF": TempFetchFahrenheit(TempF), "TempStateC": TempFetchCelsius(TempC),
 			"Humidity": random.choice(["very dry", "mildly dry", "neutral", "mildly humid", "very humid"]),
 			"Wind": random.choice(["calm", "breezy", "windy", "strong wind", "powerful wind", "deadly wind"]),
 			"Season": random.choice(["Spring", "Summer", "Autumn", "Winter"]),
