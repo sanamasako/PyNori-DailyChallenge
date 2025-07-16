@@ -1,0 +1,38 @@
+{
+  "type": "overworld",
+  "steps": 20,
+  "population": 10,
+  "enemypool": [
+    "Siwi",
+    "Clef",
+    "Pessimistick",
+    "Drizzly Bear",
+    "Optimistick"
+  ],
+  "PlayerStats": {
+    "HP": 287,
+    "ATK": 9,
+    "DEF": 16,
+    "Lvl": 3,
+    "VP": 90
+  },
+  "Weather": {
+    "TempF": 48,
+    "TempC": 8.88888888888889,
+    "TempStateF": "mild cold",
+    "TempStateC": "mild cold",
+    "Humidity": "very dry",
+    "Wind": "powerful wind",
+    "Season": "Winter",
+    "Rain": "none",
+    "Conditions": [
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 675,
+    "ATK": 19,
+    "DEF": 19,
+    "Lvl": 3
+  }
+}
