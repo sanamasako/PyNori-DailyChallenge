@@ -26,7 +26,8 @@ def GenerateChallenge():
 	TempF = random.randint(-40,120); TempC = (TempF-32)*(5/9); RandPlayerDEF = random.randint(2,20); RandEnemDEF = random.randint(4,30); StepsNeeded = random.randint(2,20)*5
 	EnemyList = ["Bayet", "Siwi", "Oh Deer", "Deer God", "Pessimistick", "Optimistick", "Drizzly Bear", "Simi", "Clef", "Ore Gano"]
 	Challenge = {
-        "type": random.choice(["overworld", "battle"]), # the game will handle the difference between these two locally
+        "difficult": "false",
+	"type": random.choice(["overworld", "battle"]), # the game will handle the difference between these two locally
         "steps": StepsNeeded,
         "population": min(random.randint(5,50),round(StepsNeeded/2)),
         "enemypool": random.sample(EnemyList, k=random.randint(4,len(EnemyList))),
