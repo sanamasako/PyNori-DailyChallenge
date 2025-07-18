@@ -1,5 +1,7 @@
 {
   "difficult": "false",
+  "verified": "true",
+  "verifier": "Shirley-XML",
   "type": "overworld",
   "steps": 20,
   "population": 10,
