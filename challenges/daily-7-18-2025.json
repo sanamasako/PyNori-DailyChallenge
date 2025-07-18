@@ -1,0 +1,40 @@
+{
+  "difficult": "false",
+  "type": "overworld",
+  "steps": 80,
+  "population": 25,
+  "enemypool": [
+    "Drizzly Bear",
+    "Clef",
+    "Optimistick",
+    "Pessimistick",
+    "Ore Gano"
+  ],
+  "PlayerStats": {
+    "HP": 107,
+    "ATK": 6,
+    "DEF": 6,
+    "Lvl": 1,
+    "VP": 140
+  },
+  "Weather": {
+    "TempF": 26,
+    "TempC": -3.3333333333333335,
+    "TempStateF": "moderate cold",
+    "TempStateC": "moderate cold",
+    "Humidity": "very humid",
+    "Wind": "strong wind",
+    "Season": "Autumn",
+    "Rain": "torrential",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 616,
+    "ATK": 3,
+    "DEF": 30,
+    "Lvl": 4
+  }
+}
