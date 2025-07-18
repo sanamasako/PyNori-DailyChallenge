@@ -27,6 +27,8 @@ def GenerateChallenge():
 	EnemyList = ["Bayet", "Siwi", "Oh Deer", "Deer God", "Pessimistick", "Optimistick", "Drizzly Bear", "Simi", "Clef", "Ore Gano"]
 	Challenge = {
         "difficult": "false",
+	"verified": "false",
+	"verifier": "None",
 	"type": random.choice(["overworld", "battle"]), # the game will handle the difference between these two locally
         "steps": StepsNeeded,
         "population": min(random.randint(5,50),round(StepsNeeded/2)),
