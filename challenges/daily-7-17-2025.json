@@ -1,5 +1,7 @@
 {
   "difficult": "true",
+  "verified": "false",
+  "verifier": "None",
   "type": "battle",
   "steps": 95,
   "population": 34,
