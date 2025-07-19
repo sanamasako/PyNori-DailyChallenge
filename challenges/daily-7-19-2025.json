@@ -1,0 +1,46 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 20,
+  "population": 10,
+  "enemypool": [
+    "Ore Gano",
+    "Clef",
+    "Oh Deer",
+    "Deer God",
+    "Drizzly Bear",
+    "Simi",
+    "Optimistick",
+    "Bayet",
+    "Siwi"
+  ],
+  "PlayerStats": {
+    "HP": 273,
+    "ATK": 11,
+    "DEF": 20,
+    "Lvl": 3,
+    "VP": 160
+  },
+  "Weather": {
+    "TempF": 22,
+    "TempC": -5.555555555555555,
+    "TempStateF": "moderate cold",
+    "TempStateC": "moderate cold",
+    "Humidity": "mildly dry",
+    "Wind": "powerful wind",
+    "Season": "Winter",
+    "Rain": "torrential",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 724,
+    "ATK": 15,
+    "DEF": 29,
+    "Lvl": 4
+  }
+}
