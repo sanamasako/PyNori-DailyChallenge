@@ -34,11 +34,11 @@ def GenerateChallenge():
         "population": min(random.randint(5,50),round(StepsNeeded/2)),
         "enemypool": random.sample(EnemyList, k=random.randint(4,len(EnemyList))),
         "PlayerStats": {
-		"HP": random.randint(10,300),
+		"HP": random.randint(10,500),
 		"ATK": random.randint(2,20),
 		"DEF": RandPlayerDEF,
 		"Lvl": (RandPlayerDEF//8)+1,
-		"VP": random.randint(1,20)*10
+		"VP": random.randint(3,20)*10
         },
         "Weather": {
 		"TempF": TempF, "TempC": TempC, "TempStateF": TempFetchFahrenheit(TempF), "TempStateC": TempFetchCelsius(TempC),
@@ -48,11 +48,11 @@ def GenerateChallenge():
 			"Rain": random.choice(["none", "light", "moderate", "heavy", "torrential"]),
 			"Conditions": []
         },
-		"CustomEnemy": {
-			"HP": random.randint(10,800),
-			"ATK": random.randint(2,30),
-			"DEF": RandEnemDEF,
-			"Lvl": (RandEnemDEF//8)+1
+	"CustomEnemy": {
+		"HP": random.randint(10,800),
+		"ATK": random.randint(2,30),
+		"DEF": RandEnemDEF,
+		"Lvl": (RandEnemDEF//8)+1
         }
     }
 	if Challenge["Weather"]["Rain"] != "none" and TempF > 32: Challenge["Weather"]["Conditions"].append("rain")
