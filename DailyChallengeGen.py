@@ -38,7 +38,7 @@ def GenerateChallenge():
 		"ATK": random.randint(2,20),
 		"DEF": RandPlayerDEF,
 		"Lvl": (RandPlayerDEF//8)+1,
-		"VP": random.randint(3,20)*10
+		"VP": random.randint(6,20)*10
         },
         "Weather": {
 		"TempF": TempF, "TempC": TempC, "TempStateF": TempFetchFahrenheit(TempF), "TempStateC": TempFetchCelsius(TempC),
