@@ -13,7 +13,7 @@ No. The only reward you get from beating Daily Challenges is a sense of accompli
 
 ### Types of Challenges
 **Overworld**
-: The game will create a fake area (fake as in disconnected from the normal areas in the game, similarly to the April Fool's Event) for you to step through. The step requirement, population, and enemy pool will be random. Additionally, there will be randomised weather[^2] for the player to endure while making steps and battling enemies. The challenge is completed when the player reaches the end of the area.
+: The game will create a fake area (fake as in disconnected from the normal areas in the game, similarly to the April Fool's Event) for you to step through. The step requirement, population, and enemy pool will be random. Additionally, there will be randomised weather[^2] to endure while making steps and battling enemies. The challenge is completed when the player reaches the end of the area.
 
 **Battle**
 : The game will start a battle with a non-existent enemy with randomised stats (HP, ATK, DEF, Level). Additionally, there will be randomised weather for the player to endure while attacking the enemy. The challenge is completed when the enemy dies.
