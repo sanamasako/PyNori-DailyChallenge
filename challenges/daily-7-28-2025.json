@@ -1,0 +1,40 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 10,
+  "population": 5,
+  "enemypool": [
+    "Bayet",
+    "Optimistick",
+    "Clef",
+    "Ore Gano"
+  ],
+  "PlayerStats": {
+    "HP": 371,
+    "ATK": 2,
+    "DEF": 19,
+    "Lvl": 3,
+    "VP": 90
+  },
+  "Weather": {
+    "TempF": 68,
+    "TempC": 20.0,
+    "TempStateF": "mild heat",
+    "TempStateC": "mild heat",
+    "Humidity": "mildly dry",
+    "Wind": "breezy",
+    "Season": "Spring",
+    "Rain": "none",
+    "Conditions": [
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 359,
+    "ATK": 27,
+    "DEF": 22,
+    "Lvl": 3
+  }
+}
