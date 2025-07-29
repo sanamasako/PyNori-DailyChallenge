@@ -1,0 +1,41 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 60,
+  "population": 15,
+  "enemypool": [
+    "Ore Gano",
+    "Oh Deer",
+    "Drizzly Bear",
+    "Optimistick",
+    "Deer God"
+  ],
+  "PlayerStats": {
+    "HP": 209,
+    "ATK": 18,
+    "DEF": 9,
+    "Lvl": 2,
+    "VP": 180
+  },
+  "Weather": {
+    "TempF": 100,
+    "TempC": 37.77777777777778,
+    "TempStateF": "extreme heat",
+    "TempStateC": "extreme heat",
+    "Humidity": "very dry",
+    "Wind": "breezy",
+    "Season": "Spring",
+    "Rain": "none",
+    "Conditions": [
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 491,
+    "ATK": 12,
+    "DEF": 15,
+    "Lvl": 2
+  }
+}
