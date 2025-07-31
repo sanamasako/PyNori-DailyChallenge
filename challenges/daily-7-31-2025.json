@@ -1,0 +1,42 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 95,
+  "population": 6,
+  "enemypool": [
+    "Deer God",
+    "Bayet",
+    "Ore Gano",
+    "Pessimistick",
+    "Optimistick"
+  ],
+  "PlayerStats": {
+    "HP": 91,
+    "ATK": 8,
+    "DEF": 7,
+    "Lvl": 1,
+    "VP": 170
+  },
+  "Weather": {
+    "TempF": -23,
+    "TempC": -30.555555555555557,
+    "TempStateF": "deadly cold",
+    "TempStateC": "deadly cold",
+    "Humidity": "neutral",
+    "Wind": "powerful wind",
+    "Season": "Winter",
+    "Rain": "moderate",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 255,
+    "ATK": 10,
+    "DEF": 13,
+    "Lvl": 2
+  }
+}
