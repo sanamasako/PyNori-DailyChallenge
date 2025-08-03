@@ -1,0 +1,40 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 20,
+  "population": 10,
+  "enemypool": [
+    "Siwi",
+    "Clef",
+    "Drizzly Bear",
+    "Bayet"
+  ],
+  "PlayerStats": {
+    "HP": 257,
+    "ATK": 4,
+    "DEF": 2,
+    "Lvl": 1,
+    "VP": 60
+  },
+  "Weather": {
+    "TempF": 110,
+    "TempC": 43.333333333333336,
+    "TempStateF": "extreme heat",
+    "TempStateC": "extreme heat",
+    "Humidity": "very dry",
+    "Wind": "calm",
+    "Season": "Spring",
+    "Rain": "torrential",
+    "Conditions": [
+      "rain"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 776,
+    "ATK": 12,
+    "DEF": 5,
+    "Lvl": 1
+  }
+}
