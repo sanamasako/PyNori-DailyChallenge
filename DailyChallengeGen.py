@@ -1,7 +1,7 @@
 import json, random, datetime, os
 
 def TempFetchFahrenheit(F):
-	if F < -20: return "deadly cold"
+	if F <= -20: return "deadly cold"
 	elif -19 <= F <= -1: return "extreme cold"
 	elif 0 <= F <= 31: return "moderate cold"
 	elif 32 <= F <= 49: return "mild cold"
@@ -12,7 +12,7 @@ def TempFetchFahrenheit(F):
 	else: return "deadly heat"
 
 def TempFetchCelsius(C):
-	if C < -29: return "deadly cold"
+	if C <= -29: return "deadly cold"
 	elif -28 <= C <= -17: return "extreme cold"
 	elif -18 <= C <= -1: return "moderate cold"
 	elif 0 <= C <= 9: return "mild cold"
@@ -63,3 +63,4 @@ def GenerateChallenge():
 
 ChallengeData = GenerateChallenge(); Date = datetime.datetime.now(); Month = Date.month; Day = Date.day; Year = Date.year
 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "challenges", f"daily-{Month}-{Day}-{Year}.json"), "w") as f: json.dump(ChallengeData, f, indent=2)
+
