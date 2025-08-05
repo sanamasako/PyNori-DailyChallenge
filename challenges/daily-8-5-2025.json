@@ -1,0 +1,41 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 45,
+  "population": 22,
+  "enemypool": [
+    "Siwi",
+    "Bayet",
+    "Deer God",
+    "Simi"
+  ],
+  "PlayerStats": {
+    "HP": 178,
+    "ATK": 5,
+    "DEF": 19,
+    "Lvl": 3,
+    "VP": 60
+  },
+  "Weather": {
+    "TempF": -26,
+    "TempC": -32.22222222222222,
+    "TempStateF": "deadly cold",
+    "TempStateC": "deadly cold",
+    "Humidity": "mildly humid",
+    "Wind": "powerful wind",
+    "Season": "Spring",
+    "Rain": "moderate",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 59,
+    "ATK": 14,
+    "DEF": 30,
+    "Lvl": 4
+  }
+}
