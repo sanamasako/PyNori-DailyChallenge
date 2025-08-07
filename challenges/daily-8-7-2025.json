@@ -1,0 +1,41 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 10,
+  "population": 5,
+  "enemypool": [
+    "Siwi",
+    "Deer God",
+    "Ore Gano",
+    "Pessimistick"
+  ],
+  "PlayerStats": {
+    "HP": 91,
+    "ATK": 14,
+    "DEF": 7,
+    "Lvl": 1,
+    "VP": 70
+  },
+  "Weather": {
+    "TempF": 65,
+    "TempC": 18.333333333333336,
+    "TempStateF": "mild heat",
+    "TempStateC": "mild heat",
+    "Humidity": "mildly dry",
+    "Wind": "deadly wind",
+    "Season": "Summer",
+    "Rain": "light",
+    "Conditions": [
+      "rain",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 18,
+    "ATK": 11,
+    "DEF": 24,
+    "Lvl": 4
+  }
+}
