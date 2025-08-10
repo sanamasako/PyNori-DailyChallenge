@@ -41,7 +41,7 @@ def GenerateChallenge():
 		"VP": random.randint(6,20)*10
         },
         "Weather": {
-		"TempF": TempF, "TempC": TempC, "TempStateF": TempFetchFahrenheit(TempF), "TempStateC": TempFetchCelsius(TempC),
+		"TempF": round(TempF), "TempC": round(TempC), "TempStateF": TempFetchFahrenheit(TempF), "TempStateC": TempFetchCelsius(TempC),
 			"Humidity": random.choice(["very dry", "mildly dry", "neutral", "mildly humid", "very humid"]),
 			"Wind": random.choice(["calm", "breezy", "windy", "strong wind", "powerful wind", "deadly wind"]),
 			"Season": random.choice(["Spring", "Summer", "Autumn", "Winter"]),
@@ -63,4 +63,5 @@ def GenerateChallenge():
 
 ChallengeData = GenerateChallenge(); Date = datetime.datetime.now(); Month = Date.month; Day = Date.day; Year = Date.year
 with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "challenges", f"daily-{Month}-{Day}-{Year}.json"), "w") as f: json.dump(ChallengeData, f, indent=2)
+
 
