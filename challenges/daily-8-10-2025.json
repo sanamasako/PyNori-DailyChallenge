@@ -1,0 +1,40 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 85,
+  "population": 24,
+  "enemypool": [
+    "Pessimistick",
+    "Siwi",
+    "Drizzly Bear",
+    "Oh Deer"
+  ],
+  "PlayerStats": {
+    "HP": 29,
+    "ATK": 20,
+    "DEF": 11,
+    "Lvl": 2,
+    "VP": 90
+  },
+  "Weather": {
+    "TempF": 119,
+    "TempC": 48.333333333333336,
+    "TempStateF": "extreme heat",
+    "TempStateC": "extreme heat",
+    "Humidity": "neutral",
+    "Wind": "deadly wind",
+    "Season": "Winter",
+    "Rain": "none",
+    "Conditions": [
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 218,
+    "ATK": 4,
+    "DEF": 19,
+    "Lvl": 3
+  }
+}
