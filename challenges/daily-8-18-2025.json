@@ -1,0 +1,42 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 50,
+  "population": 23,
+  "enemypool": [
+    "Ore Gano",
+    "Bayet",
+    "Siwi",
+    "Clef",
+    "Pessimistick"
+  ],
+  "PlayerStats": {
+    "HP": 417,
+    "ATK": 12,
+    "DEF": 7,
+    "Lvl": 1,
+    "VP": 180
+  },
+  "Weather": {
+    "TempF": -39,
+    "TempC": -39,
+    "TempStateF": "deadly cold",
+    "TempStateC": "deadly cold",
+    "Humidity": "very humid",
+    "Wind": "deadly wind",
+    "Season": "Summer",
+    "Rain": "moderate",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 379,
+    "ATK": 11,
+    "DEF": 21,
+    "Lvl": 3
+  }
+}
