@@ -1,0 +1,40 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 25,
+  "population": 12,
+  "enemypool": [
+    "Deer God",
+    "Drizzly Bear",
+    "Simi",
+    "Optimistick"
+  ],
+  "PlayerStats": {
+    "HP": 423,
+    "ATK": 3,
+    "DEF": 14,
+    "Lvl": 2,
+    "VP": 90
+  },
+  "Weather": {
+    "TempF": -27,
+    "TempC": -33,
+    "TempStateF": "deadly cold",
+    "TempStateC": "deadly cold",
+    "Humidity": "very humid",
+    "Wind": "windy",
+    "Season": "Spring",
+    "Rain": "none",
+    "Conditions": [
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 326,
+    "ATK": 19,
+    "DEF": 5,
+    "Lvl": 1
+  }
+}
