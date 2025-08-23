@@ -1,0 +1,42 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 15,
+  "population": 8,
+  "enemypool": [
+    "Oh Deer",
+    "Siwi",
+    "Clef",
+    "Deer God",
+    "Optimistick"
+  ],
+  "PlayerStats": {
+    "HP": 211,
+    "ATK": 16,
+    "DEF": 11,
+    "Lvl": 2,
+    "VP": 70
+  },
+  "Weather": {
+    "TempF": -20,
+    "TempC": -29,
+    "TempStateF": "deadly cold",
+    "TempStateC": "deadly heat",
+    "Humidity": "very dry",
+    "Wind": "deadly wind",
+    "Season": "Summer",
+    "Rain": "light",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 184,
+    "ATK": 14,
+    "DEF": 11,
+    "Lvl": 2
+  }
+}
