@@ -1,0 +1,43 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 65,
+  "population": 24,
+  "enemypool": [
+    "Pessimistick",
+    "Siwi",
+    "Bayet",
+    "Deer God",
+    "Ore Gano",
+    "Clef"
+  ],
+  "PlayerStats": {
+    "HP": 114,
+    "ATK": 8,
+    "DEF": 4,
+    "Lvl": 1,
+    "VP": 190
+  },
+  "Weather": {
+    "TempF": -21,
+    "TempC": -29,
+    "TempStateF": "deadly cold",
+    "TempStateC": "deadly cold",
+    "Humidity": "very humid",
+    "Wind": "strong wind",
+    "Season": "Autumn",
+    "Rain": "torrential",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 634,
+    "ATK": 16,
+    "DEF": 6,
+    "Lvl": 1
+  }
+}
