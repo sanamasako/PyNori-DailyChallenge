@@ -1,0 +1,41 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 20,
+  "population": 10,
+  "enemypool": [
+    "Pessimistick",
+    "Deer God",
+    "Clef",
+    "Ore Gano"
+  ],
+  "PlayerStats": {
+    "HP": 307,
+    "ATK": 10,
+    "DEF": 18,
+    "Lvl": 3,
+    "VP": 70
+  },
+  "Weather": {
+    "TempF": -38,
+    "TempC": -39,
+    "TempStateF": "deadly cold",
+    "TempStateC": "deadly cold",
+    "Humidity": "neutral",
+    "Wind": "deadly wind",
+    "Season": "Autumn",
+    "Rain": "moderate",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 376,
+    "ATK": 14,
+    "DEF": 10,
+    "Lvl": 2
+  }
+}
