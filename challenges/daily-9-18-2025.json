@@ -1,0 +1,40 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 55,
+  "population": 18,
+  "enemypool": [
+    "Optimistick",
+    "Ore Gano",
+    "Simi",
+    "Pessimistick"
+  ],
+  "PlayerStats": {
+    "HP": 343,
+    "ATK": 12,
+    "DEF": 4,
+    "Lvl": 1,
+    "VP": 170
+  },
+  "Weather": {
+    "TempF": 99,
+    "TempC": 37,
+    "TempStateF": "extreme heat",
+    "TempStateC": "extreme heat",
+    "Humidity": "very humid",
+    "Wind": "windy",
+    "Season": "Summer",
+    "Rain": "none",
+    "Conditions": [
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 411,
+    "ATK": 14,
+    "DEF": 25,
+    "Lvl": 4
+  }
+}
