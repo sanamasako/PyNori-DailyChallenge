@@ -1,0 +1,42 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 65,
+  "population": 32,
+  "enemypool": [
+    "Bayet",
+    "Drizzly Bear",
+    "Simi",
+    "Deer God",
+    "Pessimistick",
+    "Clef"
+  ],
+  "PlayerStats": {
+    "HP": 382,
+    "ATK": 7,
+    "DEF": 5,
+    "Lvl": 1,
+    "VP": 100
+  },
+  "Weather": {
+    "TempF": 4,
+    "TempC": -16,
+    "TempStateF": "moderate cold",
+    "TempStateC": "moderate cold",
+    "Humidity": "very humid",
+    "Wind": "windy",
+    "Season": "Winter",
+    "Rain": "none",
+    "Conditions": [
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 416,
+    "ATK": 4,
+    "DEF": 12,
+    "Lvl": 2
+  }
+}
