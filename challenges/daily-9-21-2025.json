@@ -1,0 +1,43 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 40,
+  "population": 7,
+  "enemypool": [
+    "Pessimistick",
+    "Clef",
+    "Optimistick",
+    "Ore Gano",
+    "Bayet",
+    "Oh Deer"
+  ],
+  "PlayerStats": {
+    "HP": 157,
+    "ATK": 7,
+    "DEF": 18,
+    "Lvl": 3,
+    "VP": 60
+  },
+  "Weather": {
+    "TempF": -39,
+    "TempC": -39,
+    "TempStateF": "deadly cold",
+    "TempStateC": "deadly cold",
+    "Humidity": "mildly dry",
+    "Wind": "windy",
+    "Season": "Summer",
+    "Rain": "moderate",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 741,
+    "ATK": 8,
+    "DEF": 8,
+    "Lvl": 2
+  }
+}
