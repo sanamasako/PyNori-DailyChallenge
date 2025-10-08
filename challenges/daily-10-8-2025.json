@@ -1,0 +1,42 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 90,
+  "population": 8,
+  "enemypool": [
+    "Simi",
+    "Oh Deer",
+    "Bayet",
+    "Siwi",
+    "Clef"
+  ],
+  "PlayerStats": {
+    "HP": 443,
+    "ATK": 7,
+    "DEF": 4,
+    "Lvl": 1,
+    "VP": 140
+  },
+  "Weather": {
+    "TempF": 69,
+    "TempC": 21,
+    "TempStateF": "mild heat",
+    "TempStateC": "mild heat",
+    "Humidity": "very dry",
+    "Wind": "windy",
+    "Season": "Spring",
+    "Rain": "torrential",
+    "Conditions": [
+      "rain",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 245,
+    "ATK": 3,
+    "DEF": 8,
+    "Lvl": 2
+  }
+}
