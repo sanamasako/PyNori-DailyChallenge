@@ -1,0 +1,40 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 80,
+  "population": 40,
+  "enemypool": [
+    "Pessimistick",
+    "Simi",
+    "Optimistick",
+    "Oh Deer"
+  ],
+  "PlayerStats": {
+    "HP": 462,
+    "ATK": 7,
+    "DEF": 12,
+    "Lvl": 2,
+    "VP": 190
+  },
+  "Weather": {
+    "TempF": 43,
+    "TempC": 6,
+    "TempStateF": "mild cold",
+    "TempStateC": "mild cold",
+    "Humidity": "very dry",
+    "Wind": "calm",
+    "Season": "Spring",
+    "Rain": "torrential",
+    "Conditions": [
+      "rain"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 647,
+    "ATK": 27,
+    "DEF": 24,
+    "Lvl": 4
+  }
+}
