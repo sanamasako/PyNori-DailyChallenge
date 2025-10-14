@@ -1,0 +1,42 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 35,
+  "population": 5,
+  "enemypool": [
+    "Simi",
+    "Clef",
+    "Deer God",
+    "Ore Gano",
+    "Bayet"
+  ],
+  "PlayerStats": {
+    "HP": 495,
+    "ATK": 19,
+    "DEF": 13,
+    "Lvl": 2,
+    "VP": 130
+  },
+  "Weather": {
+    "TempF": 119,
+    "TempC": 48,
+    "TempStateF": "extreme heat",
+    "TempStateC": "extreme heat",
+    "Humidity": "mildly humid",
+    "Wind": "powerful wind",
+    "Season": "Winter",
+    "Rain": "light",
+    "Conditions": [
+      "rain",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 608,
+    "ATK": 8,
+    "DEF": 13,
+    "Lvl": 2
+  }
+}
