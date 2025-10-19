@@ -1,0 +1,41 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 50,
+  "population": 25,
+  "enemypool": [
+    "Oh Deer",
+    "Bayet",
+    "Optimistick",
+    "Ore Gano",
+    "Deer God"
+  ],
+  "PlayerStats": {
+    "HP": 179,
+    "ATK": 6,
+    "DEF": 19,
+    "Lvl": 3,
+    "VP": 180
+  },
+  "Weather": {
+    "TempF": 98,
+    "TempC": 37,
+    "TempStateF": "extreme heat",
+    "TempStateC": "extreme heat",
+    "Humidity": "very dry",
+    "Wind": "calm",
+    "Season": "Autumn",
+    "Rain": "torrential",
+    "Conditions": [
+      "rain"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 726,
+    "ATK": 19,
+    "DEF": 27,
+    "Lvl": 4
+  }
+}
