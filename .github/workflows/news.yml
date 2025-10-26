@@ -39,7 +39,7 @@ jobs:
               elif "fix" in last_commit_msg or "bug" in last_commit_msg: message = "Bugs in the Daily Challenge generator were patched."
               else: message = "The Daily Challenge generator was updated."
           elif data.get("verified") and data.get("verifier") and (data.get("verifier").lower() != "none"): message = f"Daily Challenge for {date_str} verified by {data['verifier']}."
-          elif data.get("difficult"): message = f"Daily Challenge for {date_str} marked as difficult."
+          elif data.get("difficult") is True: message = f"Daily Challenge for {date_str} marked as difficult."
           else: message = f"Daily Challenge for {date_str} generated."
 
           new_entry = {"date": date_str, "message": message}
