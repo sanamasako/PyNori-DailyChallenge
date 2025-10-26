@@ -38,7 +38,7 @@ jobs:
               if "new type" in last_commit_msg or "add type" in last_commit_msg: message = "New Daily Challenge type is now public."
               elif "fix" in last_commit_msg or "bug" in last_commit_msg: message = "Bugs in the Daily Challenge generator were patched."
               else: message = "The Daily Challenge generator was updated."
-          elif data.get("verified") and data.get("verifier"): message = f"Daily Challenge for {date_str} verified by {data['verifier']}."
+          elif data.get("verified") and data.get("verifier") and (data.get("verifier").lower() != "none"): message = f"Daily Challenge for {date_str} verified by {data['verifier']}."
           elif data.get("difficult"): message = f"Daily Challenge for {date_str} marked as difficult."
           else: message = f"Daily Challenge for {date_str} generated."
 
