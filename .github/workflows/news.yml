@@ -16,6 +16,7 @@ jobs:
 
       - name: Generate Daily Challenge News
         run: |
+          python - <<'PYCODE'
           import json, os, datetime, subprocess
 
           challenges_dir = "challenges"
@@ -53,6 +54,7 @@ jobs:
 
           news_data.append(new_entry) # Append new entry
           with open(news_file, "w", encoding="utf-8") as f: json.dump(news_data, f, indent=2) # Save updated news history
+          PYCODE
 
       - name: Commit & push
         run: |
