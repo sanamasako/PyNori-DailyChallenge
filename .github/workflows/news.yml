@@ -1,0 +1,63 @@
+name: Daily Challenge News
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate Daily Challenge News
+        run: |
+          import json, os, datetime, subprocess
+
+          challenges_dir = "challenges"
+          challenge_files = [f for f in os.listdir(challenges_dir) if f.endswith(".json")]
+          latest_file = max(challenge_files, key=lambda f: os.path.getmtime(os.path.join(challenges_dir, f)))
+          latest_path = os.path.join(challenges_dir, latest_file)
+
+          with open(latest_path, "r", encoding="utf-8") as f: data = json.load(f)
+          Date = datetime.datetime.now(); date_str = f"{Date.month}/{Date.day}/{Date.year}"
+
+          # Check if generator script changed recently
+          result = subprocess.run(["git", "diff", "--name-only", "HEAD~1", "HEAD"], capture_output=True, text=True)
+          changed_files = result.stdout.strip().splitlines()
+          generator_changed = "DailyChallengeGen.py" in changed_files
+
+          # Determine the type of news message
+          if generator_changed:
+              result = subprocess.run(["git", "log", "-1", "--pretty=%B"], capture_output=True, text=True); last_commit_msg = result.stdout.lower()
+              if "new type" in last_commit_msg or "add type" in last_commit_msg: message = "New Daily Challenge type is now public."
+              elif "fix" in last_commit_msg or "bug" in last_commit_msg: message = "Bugs in the Daily Challenge generator were patched."
+              else: message = "The Daily Challenge generator was updated."
+          elif data.get("verified") and data.get("verifier"): message = f"Daily Challenge for {date_str} verified by {data['verifier']}."
+          elif data.get("difficult"): message = f"Daily Challenge for {date_str} marked as difficult."
+          else: message = f"Daily Challenge for {date_str} generated."
+
+          new_entry = {"date": date_str, "message": message}
+          news_file = "challenge_news.json" # Load existing news history if present
+          if os.path.exists(news_file):
+              with open(news_file, "r", encoding="utf-8") as f:
+                  try:
+                      news_data = json.load(f)
+                      if not isinstance(news_data, list): news_data = [news_data]
+                  except json.JSONDecodeError: news_data = []
+          else: news_data = []
+
+          news_data.append(new_entry) # Append new entry
+          with open(news_file, "w", encoding="utf-8") as f: json.dump(news_data, f, indent=2) # Save updated news history
+
+      - name: Commit & push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add challenge_news.json
+          git commit -m "Update news" || echo "No changes to commit"
+          git push
