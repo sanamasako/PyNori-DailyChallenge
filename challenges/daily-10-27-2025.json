@@ -1,0 +1,45 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 25,
+  "population": 12,
+  "enemypool": [
+    "Ore Gano",
+    "Oh Deer",
+    "Deer God",
+    "Siwi",
+    "Clef",
+    "Drizzly Bear",
+    "Bayet",
+    "Simi",
+    "Optimistick"
+  ],
+  "PlayerStats": {
+    "HP": 104,
+    "ATK": 9,
+    "DEF": 19,
+    "Lvl": 3,
+    "VP": 140
+  },
+  "Weather": {
+    "TempF": -34,
+    "TempC": -37,
+    "TempStateF": "deadly cold",
+    "TempStateC": "deadly cold",
+    "Humidity": "neutral",
+    "Wind": "breezy",
+    "Season": "Autumn",
+    "Rain": "none",
+    "Conditions": [
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 216,
+    "ATK": 5,
+    "DEF": 7,
+    "Lvl": 1
+  }
+}
