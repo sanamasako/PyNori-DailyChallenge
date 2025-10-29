@@ -13,11 +13,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
 
       - name: Generate Daily Challenge News
         run: |
           python - <<'PYCODE'
-          import json, os, datetime, subprocess; challenges_dir = "challenges"; news_file = "challenge_news.json"; Date = datetime.datetime.now(); date_str = f"{Date.month}/{Date.day}/{Date.year}"
+          import json, os, datetime, subprocess
+          challenges_dir = "challenges"; news_file = "challenge_news.json"
+          Date = datetime.datetime.now(); date_str = f"{Date.month}/{Date.day}/{Date.year}"
 
           def join_list(items):
               if len(items) == 1: return items[0]
@@ -35,10 +39,10 @@ jobs:
                       if not isinstance(news_data, list): news_data = [news_data]
                   except json.JSONDecodeError: news_data = []
           else: news_data = []
-
           result = subprocess.run(["git", "diff", "--name-only", "HEAD~1", "HEAD"], capture_output=True, text=True)
-          changed_files = result.stdout.strip().splitlines(); generator_changed = "DailyChallengeGen.py" in changed_files
-          messages = []; date_status = {}
+          changed_files = [f.strip() for f in result.stdout.splitlines() if f.strip()]
+          print("Changed files:", changed_files)
+          generator_changed = "DailyChallengeGen.py" in changed_files; messages = []; date_status = {}
 
           if generator_changed:
               result = subprocess.run(["git", "log", "-1", "--pretty=%B"], capture_output=True, text=True)
@@ -65,7 +69,6 @@ jobs:
                   unique_verifiers = sorted(set(status["verifiers"]))
                   verifiers_str = join_list(unique_verifiers)
                   parts.append(f"verified by {verifiers_str}")
-
               if status["difficult"]: parts.append("marked as difficult")
               if status["generated"] and not parts: parts.append("generated")
               message = f"Daily Challenge for {date_key} " + " and ".join(parts) + "."; messages.append(message)
@@ -75,7 +78,8 @@ jobs:
               new_entry = {"date": date_str, "message": combined_message}
               news_data.append(new_entry)
               with open(news_file, "w", encoding="utf-8") as f: json.dump(news_data, f, indent=2)
-
+              print("Updated news file with:", combined_message)
+          else: print("No messages generated — no updates.")
           PYCODE
 
       - name: Commit & push
