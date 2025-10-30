@@ -53,14 +53,19 @@ jobs:
                       parts = line.split("BY")
                       date_part = parts[0].replace("VERIF:", "").strip()
                       verifier = parts[1].strip()
-                      date_status.setdefault(date_part, {"verifiers": set(), "difficult": False})
+                      date_status.setdefault(date_part, {"verifiers": set(), "difficult": False, "generated": False})
                       date_status[date_part]["verifiers"].add(verifier)
                   except Exception as e: print(f"Skipping malformed verification line: {line} ({e})")
               elif line.startswith("DIFF:"):
                   # Format: DIFF: M/D/Y
                   date_part = line.replace("DIFF:", "").strip()
-                  date_status.setdefault(date_part, {"verifiers": set(), "difficult": False})
+                  date_status.setdefault(date_part, {"verifiers": set(), "difficult": False, "generated": False})
                   date_status[date_part]["difficult"] = True
+              elif line.startswith("GEN:"):
+                  # Format: GEN: M/D/Y
+                  date_part = line.replace("GEN:", "").strip()
+                  date_status.setdefault(date_part, {"verifiers": set(), "difficult": False, "generated": False})
+                  date_status[date_part]["generated"] = True
               else: print(f"Skipping unrecognised line: {line}")
 
           if not date_status: print("No valid updates found in recent_changes.txt."); os._exit(0)
@@ -71,8 +76,8 @@ jobs:
                   verifiers_str = join_list(sorted(status["verifiers"]))
                   parts.append(f"verified by {verifiers_str}")
               if status["difficult"]: parts.append("marked as difficult")
-              message = f"Daily Challenge for {date_key} " + " and ".join(parts) + "."
-              messages.append(message)
+              if status["generated"] and not (status["verifiers"] or status["difficult"]): parts.append("generated")
+              message = f"Daily Challenge for {date_key} " + " and ".join(parts) + "."; messages.append(message)
 
           if not messages: print("Nothing to add to news."); os._exit(0)
           combined_message = "\n".join(messages)
