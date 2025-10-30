@@ -19,8 +19,9 @@ jobs:
       - name: Generate Daily Challenge News
         run: |
           python - <<'PYCODE'
-          import json, os, datetime, subprocess
-          challenges_dir = "challenges"; news_file = "challenge_news.json"
+          import json, os, datetime
+          news_file = "challenge_news.json"
+          changes_file = "recent_changes.txt"
           Date = datetime.datetime.now(); date_str = f"{Date.month}/{Date.day}/{Date.year}"
 
           def join_list(items):
@@ -40,57 +41,58 @@ jobs:
                   except json.JSONDecodeError: news_data = []
           else: news_data = []
 
-          since_time = (Date - datetime.timedelta(days=1)).isoformat()
-          result = subprocess.run(["git", "log", f'--since="{since_time}"', "--name-only", "--pretty=format:"], capture_output=True, text=True)
-          changed_files = sorted(set(f.strip() for f in result.stdout.splitlines() if f.strip()))
-          print("Changed files in last 24 hours:", changed_files)
+          if not os.path.exists(changes_file): print("No recent_changes.txt found — nothing to report."); os._exit(1)
+          with open(changes_file, "r", encoding="utf-8") as f: lines = [line.strip() for line in f.readlines() if line.strip()]
+          if not lines: print("recent_changes.txt is empty — nothing to report."); os._exit(0)
+          date_status = {}
 
-          generator_changed = "DailyChallengeGen.py" in changed_files; messages = []; date_status = {}
+          for line in lines:
+              if line.startswith("VERIF:"):
+                  # Format: VERIF: M/D/Y BY Verifier
+                  try:
+                      parts = line.split("BY")
+                      date_part = parts[0].replace("VERIF:", "").strip()
+                      verifier = parts[1].strip()
+                      date_status.setdefault(date_part, {"verifiers": set(), "difficult": False})
+                      date_status[date_part]["verifiers"].add(verifier)
+                  except Exception as e: print(f"Skipping malformed verification line: {line} ({e})")
+              elif line.startswith("DIFF:"):
+                  # Format: DIFF: M/D/Y
+                  date_part = line.replace("DIFF:", "").strip()
+                  date_status.setdefault(date_part, {"verifiers": set(), "difficult": False})
+                  date_status[date_part]["difficult"] = True
+              else: print(f"Skipping unrecognised line: {line}")
 
-          if generator_changed:
-              result = subprocess.run(["git", "log", "-1", "--pretty=%B"], capture_output=True, text=True)
-              last_commit_msg = result.stdout.lower()
-              if "new type" in last_commit_msg or "add type" in last_commit_msg: messages.append("New Daily Challenge type is now public.")
-              elif "fix" in last_commit_msg or "bug" in last_commit_msg: messages.append("Bugs in the Daily Challenge generator were patched.")
-              else: messages.append("The Daily Challenge generator was updated.")
-
-          modified_challenges = [f for f in changed_files if f.startswith("challenges/") and f.endswith(".json")]
-          for file_path in modified_challenges:
-              if not os.path.exists(file_path): continue
-              with open(file_path, "r", encoding="utf-8") as f:
-                  try: data = json.load(f)
-                  except json.JSONDecodeError: continue
-
-              filename = os.path.splitext(os.path.basename(file_path))[0]; date_part = filename.replace("-", "/")
-              if date_part not in date_status: date_status[date_part] = {"verifiers": [], "difficult": False, "generated": False}
-
-              if data.get("verified") and data.get("verifier") and data.get("verifier").lower() != "none": date_status[date_part]["verifiers"].append(data["verifier"])
-              if data.get("difficult") is True: date_status[date_part]["difficult"] = True
-              if not data.get("verified") and not data.get("difficult"): date_status[date_part]["generated"] = True
-
+          if not date_status: print("No valid updates found in recent_changes.txt."); os._exit(0)
+          messages = []
           for date_key in sort_dates(list(date_status.keys())):
               status = date_status[date_key]; parts = []
               if status["verifiers"]:
-                  unique_verifiers = sorted(set(status["verifiers"]))
-                  verifiers_str = join_list(unique_verifiers)
+                  verifiers_str = join_list(sorted(status["verifiers"]))
                   parts.append(f"verified by {verifiers_str}")
               if status["difficult"]: parts.append("marked as difficult")
-              if status["generated"] and not parts: parts.append("generated")
-              message = f"Daily Challenge for {date_key} " + " and ".join(parts) + "."; messages.append(message)
+              message = f"Daily Challenge for {date_key} " + " and ".join(parts) + "."
+              messages.append(message)
 
-          if messages:
-              combined_message = "\n".join(messages)
-              new_entry = {"date": date_str, "message": combined_message}
-              news_data.append(new_entry)
-              with open(news_file, "w", encoding="utf-8") as f: json.dump(news_data, f, indent=2)
-              print("Updated news file with:\n", combined_message)
-          else: print("Nothing to report.")
+          if not messages: print("Nothing to add to news."); os._exit(0)
+          combined_message = "\n".join(messages)
+          new_entry = {"date": date_str, "message": combined_message}
+          existing_entry = next((entry for entry in news_data if entry["date"] == date_str), None)
+          if existing_entry: existing_entry["message"] += "\n" + combined_message
+          else: news_data.append(new_entry)
+          with open(news_file, "w", encoding="utf-8") as f: json.dump(news_data, f, indent=2)
+          print("Updated challenge_news.json with:\n", combined_message)
           PYCODE
 
-      - name: Commit & push
+      - name: Clear recent_changes.txt
         run: |
+          echo "" > recent_changes.txt
+
+      - name: Commit & push updates
+        run: |
+          DATE=$(date +"%m/%d/%Y")
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add challenge_news.json
-          git commit -m "Update news" || echo "No changes to commit"
+          git add challenge_news.json recent_changes.txt
+          git commit -m "Update challenge news (${DATE})" || echo "No changes to commit"
           git push
