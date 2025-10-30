@@ -16,10 +16,17 @@ jobs:
       - name: Run generator
         run: |
           python DailyChallengeGen.py
+
+      - name: Log generation to recent_changes.txt
+        run: |
+          DATE=$(date +"%-m/%-d/%Y")
+          echo "GEN: ${DATE}" >> recent_changes.txt
+          echo "Logged Daily Challenge generation for ${DATE}."
+
       - name: Commit & push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add challenges/*.json
-          git commit -m "Update daily challenge"
+          git add challenges/*.json recent_changes.txt
+          git commit -m "Update daily challenge and log generation" || echo "No changes to commit"
           git push
