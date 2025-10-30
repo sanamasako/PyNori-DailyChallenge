@@ -5,8 +5,13 @@ As the repository name implies, this exists solely to automatically generate **J
 Every day at midnight UTC (or at least, approximately), a workflow will automatically execute which generates a new challenge JSON in the format of "daily-MM-DD-YYYY.json", where MM is the current month, DD is the current day, and YYYY is the current year.
 **Yes, I use Month/Day/Year format. If you don't, get used to it. I hate all the other formats.**
 
-When the challenge JSON is created, selecting option 7[^1] on the Title Screen will attempt to load today's JSON if it exists (if it doesn't, the game will inform the player that the Daily Challenge hasn't been generated yet and boot them back to the title screen).
+In-game, selecting option 7[^1] on the Title Screen will attempt to load today's JSON if it exists (if it doesn't, the game will inform the player that the Daily Challenge hasn't been generated yet and boot them back to the title screen).
 If loading the JSON was a success, the game will create a little synopsis of the current challenge and give you the option of playing either the current Daily Challenge or a past one (and of course, returning to the title screen if desired).
+
+### October 2025 Update
+Starting in v2.2.0, there will now be a "news feed" for Daily Challenge related updates. Generations, verifications, and difficulty markings will be reported at the top of the Daily Challenge menu, and there will be an option allowing you to view past reports. This additional functionality should not affect versions 2.0.0 to 2.1.2 in any way.
+
+The news feed will be handled by a workflow separate from the one that generates the Daily Challenges. To prevent conflict with the text file that keeps track of recent changes (conveniently named recent_changes.txt), the news feed workflow runs 1 minute after the Daily Challenge one. Luckily, I'm pretty sure you can go far longer than 1 minute without reading today's Daily Challenge news.
 
 ### Do I get rewarded for beating the Daily Challenge?
 No. The only reward you get from beating Daily Challenges is a sense of accomplishment, if any. If you want actual rewards, play the minigames (not from the Title Screen).
