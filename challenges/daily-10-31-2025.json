@@ -1,0 +1,40 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 30,
+  "population": 15,
+  "enemypool": [
+    "Simi",
+    "Pessimistick",
+    "Oh Deer",
+    "Deer God"
+  ],
+  "PlayerStats": {
+    "HP": 333,
+    "ATK": 16,
+    "DEF": 5,
+    "Lvl": 1,
+    "VP": 60
+  },
+  "Weather": {
+    "TempF": 62,
+    "TempC": 17,
+    "TempStateF": "mild heat",
+    "TempStateC": "mild heat",
+    "Humidity": "very dry",
+    "Wind": "strong wind",
+    "Season": "Spring",
+    "Rain": "none",
+    "Conditions": [
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 510,
+    "ATK": 29,
+    "DEF": 17,
+    "Lvl": 3
+  }
+}
