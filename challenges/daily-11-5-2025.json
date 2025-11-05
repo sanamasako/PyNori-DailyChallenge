@@ -1,0 +1,44 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 90,
+  "population": 33,
+  "enemypool": [
+    "Ore Gano",
+    "Pessimistick",
+    "Simi",
+    "Clef",
+    "Oh Deer",
+    "Drizzly Bear",
+    "Optimistick"
+  ],
+  "PlayerStats": {
+    "HP": 333,
+    "ATK": 17,
+    "DEF": 10,
+    "Lvl": 2,
+    "VP": 120
+  },
+  "Weather": {
+    "TempF": 101,
+    "TempC": 38,
+    "TempStateF": "extreme heat",
+    "TempStateC": "extreme heat",
+    "Humidity": "neutral",
+    "Wind": "breezy",
+    "Season": "Spring",
+    "Rain": "light",
+    "Conditions": [
+      "rain",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 167,
+    "ATK": 5,
+    "DEF": 5,
+    "Lvl": 1
+  }
+}
