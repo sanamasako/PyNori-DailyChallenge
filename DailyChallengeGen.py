@@ -27,12 +27,15 @@ def GenerateChallenge():
 	EnemyList = ["Bayet", "Siwi", "Oh Deer", "Deer God", "Pessimistick", "Optimistick", "Drizzly Bear", "Simi", "Clef", "Ore Gano"]
 	Challenge = {
         "difficult": "false",
-	"verified": "false",
-	"verifier": "None",
-	"type": random.choice(["overworld", "battle"]), # the game will handle the difference between these two locally
+		"verified": "false",
+		"verifier": "None",
+		"type": random.choice(["overworld", "battle", "lair"]), # the game will handle the difference between these three locally
         "steps": StepsNeeded,
         "population": min(random.randint(5,50),round(StepsNeeded/2)),
         "enemypool": random.sample(EnemyList, k=random.randint(4,len(EnemyList))),
+		"floors": random.randint(1,10),
+		"FloorData": {},
+		"FloorRooms": {},
         "PlayerStats": {
 		"HP": random.randint(10,500),
 		"ATK": random.randint(2,20),
@@ -41,7 +44,7 @@ def GenerateChallenge():
 		"VP": random.randint(6,20)*10
         },
         "Weather": {
-		"TempF": round(TempF), "TempC": round(TempC), "TempStateF": TempFetchFahrenheit(TempF), "TempStateC": TempFetchCelsius(TempC),
+			"TempF": round(TempF), "TempC": round(TempC), "TempStateF": TempFetchFahrenheit(TempF), "TempStateC": TempFetchCelsius(TempC),
 			"Humidity": random.choice(["very dry", "mildly dry", "neutral", "mildly humid", "very humid"]),
 			"Wind": random.choice(["calm", "breezy", "windy", "strong wind", "powerful wind", "deadly wind"]),
 			"Season": random.choice(["Spring", "Summer", "Autumn", "Winter"]),
@@ -55,6 +58,10 @@ def GenerateChallenge():
 		"Lvl": (RandEnemDEF//8)+1
         }
     }
+	for i in range(10): Challenge["FloorData"][f"Floor{i+1}"] = {}
+	for i in range(10): Challenge["FloorRooms"][f"Floor{i+1}"] = random.randint(2,5)
+	for i in range(Challenge["floors"]):
+		for i2 in range(Challenge["FloorRooms"][f"Floor{i+1}"]): Challenge["FloorData"][f"Floor{i+1}"][f"Room{i2+1}"] = random.choice(["spike", "booby", "match1", "jumps", "match2", "saws", "memory", "dark", "mirror", "guards", "stairs"]) if not (i2+1 >= Challenge["FloorRooms"][f"Floor{i+1}"]) else "stairs"
 	if Challenge["Weather"]["Rain"] != "none" and TempF > 32: Challenge["Weather"]["Conditions"].append("rain")
 	if Challenge["Weather"]["Rain"] != "none" and TempF <= 32: Challenge["Weather"]["Conditions"].append("snow")
 	if random.randint(1,10) == 6: Challenge["Weather"]["Conditions"].append("thunder")
