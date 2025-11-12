@@ -2,7 +2,7 @@
   "difficult": "false",
   "verified": "false",
   "verifier": "None",
-  "type": "overworld",
+  "type": "lair",
   "steps": 50,
   "population": 20,
   "enemypool": [
