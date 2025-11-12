@@ -26,7 +26,7 @@ No. The only reward you get from beating Daily Challenges is a sense of accompli
 : The game will start a battle with a non-existent enemy with randomised stats (HP, ATK, DEF, Level). Additionally, there will be randomised weather for the player to endure while attacking the enemy. The challenge is completed when the enemy dies.
 
 **Lair (IN DEVELOPMENT)**
-: The game will create a fake version of Shadorako's Lair[^3] with up to 10 floors. Each floor can have from 2 to 5 rooms, and each room (with the exception of the last one, which is always the "stairs" type) is random. The challenge is completed when the final floor is cleared.
+: The game will create a fake version of Shadorako's Lair[^3] with up to 10 floors. Each floor can have from 2 to 5 rooms, and each room (with the exception of the last one, which is always the "stairs" type) is random. The challenge is completed when the final floor is cleared. Compatible with PyNori v2.3.0 or newer.
 
 **In all types of challenges, the player's starting stats are randomised as well. Also, items are not included.**
 
