@@ -1,7 +1,7 @@
 # PyNori Daily Challenge Generator
 As the repository name implies, this exists solely to automatically generate **JSON files** (found in "challenges/") to be used in [PyNori](https://shirley-xml.itch.io/pynori) version 2.0.0 or newer for the "Daily Challenge" feature.
 
-**11/10/2025: THE "LAIR" DAILY CHALLENGE TYPE IS CURRENTLY IN DEVELOPMENT. UNTIL THE RELEASE OF v2.3.0, PLEASE DISREGARD ANY MESSAGES TELLING YOU TO UPDATE THE GAME TO PLAY A CHALLENGE. THE UPDATE IS NOT READY YET.**
+**11/10/2025: UNTIL THE RELEASE OF v2.3.0, PLEASE DISREGARD ANY MESSAGES TELLING YOU TO UPDATE THE GAME TO PLAY A CHALLENGE. THE UPDATE IS NOT READY YET.**
 
 ### What exactly is going on here?
 Every day at midnight UTC (or at least, approximately), a workflow will automatically execute which generates a new challenge JSON in the format of "daily-MM-DD-YYYY.json", where MM is the current month, DD is the current day, and YYYY is the current year.
@@ -25,8 +25,8 @@ No. The only reward you get from beating Daily Challenges is a sense of accompli
 **Battle**
 : The game will start a battle with a non-existent enemy with randomised stats (HP, ATK, DEF, Level). Additionally, there will be randomised weather for the player to endure while attacking the enemy. The challenge is completed when the enemy dies.
 
-**Lair (IN DEVELOPMENT)**
-: The game will create a fake version of Shadorako's Lair[^3] with up to 10 floors. Each floor can have from 2 to 5 rooms, and each room (with the exception of the last one, which is always the "stairs" type) is random. The challenge is completed when the final floor is cleared. Compatible with PyNori v2.3.0 or newer.
+**Lair (v2.3.0+)**
+: The game will create a fake version of Shadorako's Lair[^3] with up to 10 floors. Each floor can have from 2 to 5 rooms, and each room (with the exception of the last one, which is always the "stairs" type) is random. The challenge is completed when the final floor is cleared.
 
 **In all types of challenges, the player's starting stats are randomised as well. Also, items are not included.**
 
