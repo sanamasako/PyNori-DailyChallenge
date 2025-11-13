@@ -1,0 +1,111 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "lair",
+  "steps": 65,
+  "population": 7,
+  "enemypool": [
+    "Deer God",
+    "Clef",
+    "Optimistick",
+    "Bayet",
+    "Drizzly Bear",
+    "Simi",
+    "Ore Gano",
+    "Pessimistick"
+  ],
+  "floors": 10,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "saws",
+      "Room2": "jumps",
+      "Room3": "saws",
+      "Room4": "stairs"
+    },
+    "Floor2": {
+      "Room1": "stairs",
+      "Room2": "guards",
+      "Room3": "stairs",
+      "Room4": "saws",
+      "Room5": "stairs"
+    },
+    "Floor3": {
+      "Room1": "match2",
+      "Room2": "booby",
+      "Room3": "stairs"
+    },
+    "Floor4": {
+      "Room1": "mirror",
+      "Room2": "saws",
+      "Room3": "saws",
+      "Room4": "stairs"
+    },
+    "Floor5": {
+      "Room1": "booby",
+      "Room2": "stairs"
+    },
+    "Floor6": {
+      "Room1": "saws",
+      "Room2": "stairs"
+    },
+    "Floor7": {
+      "Room1": "booby",
+      "Room2": "stairs"
+    },
+    "Floor8": {
+      "Room1": "dark",
+      "Room2": "stairs"
+    },
+    "Floor9": {
+      "Room1": "saws",
+      "Room2": "memory",
+      "Room3": "mirror",
+      "Room4": "saws",
+      "Room5": "stairs"
+    },
+    "Floor10": {
+      "Room1": "booby",
+      "Room2": "stairs"
+    }
+  },
+  "FloorRooms": {
+    "Floor1": 4,
+    "Floor2": 5,
+    "Floor3": 3,
+    "Floor4": 4,
+    "Floor5": 2,
+    "Floor6": 2,
+    "Floor7": 2,
+    "Floor8": 2,
+    "Floor9": 5,
+    "Floor10": 2
+  },
+  "PlayerStats": {
+    "HP": 183,
+    "ATK": 14,
+    "DEF": 7,
+    "Lvl": 1,
+    "VP": 90
+  },
+  "Weather": {
+    "TempF": -40,
+    "TempC": -40,
+    "TempStateF": "deadly cold",
+    "TempStateC": "deadly cold",
+    "Humidity": "mildly humid",
+    "Wind": "powerful wind",
+    "Season": "Winter",
+    "Rain": "light",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 406,
+    "ATK": 28,
+    "DEF": 18,
+    "Lvl": 3
+  }
+}
