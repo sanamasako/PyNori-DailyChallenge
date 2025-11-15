@@ -1,0 +1,74 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "lair",
+  "steps": 15,
+  "population": 8,
+  "enemypool": [
+    "Pessimistick",
+    "Clef",
+    "Bayet",
+    "Deer God",
+    "Siwi",
+    "Simi",
+    "Oh Deer",
+    "Drizzly Bear",
+    "Optimistick"
+  ],
+  "floors": 1,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "spike",
+      "Room2": "stairs"
+    },
+    "Floor2": {},
+    "Floor3": {},
+    "Floor4": {},
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 2,
+    "Floor2": 4,
+    "Floor3": 3,
+    "Floor4": 2,
+    "Floor5": 4,
+    "Floor6": 4,
+    "Floor7": 5,
+    "Floor8": 4,
+    "Floor9": 2,
+    "Floor10": 4
+  },
+  "PlayerStats": {
+    "HP": 359,
+    "ATK": 16,
+    "DEF": 18,
+    "Lvl": 3,
+    "VP": 190
+  },
+  "Weather": {
+    "TempF": -22,
+    "TempC": -30,
+    "TempStateF": "deadly cold",
+    "TempStateC": "deadly cold",
+    "Humidity": "mildly humid",
+    "Wind": "breezy",
+    "Season": "Winter",
+    "Rain": "light",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 139,
+    "ATK": 23,
+    "DEF": 11,
+    "Lvl": 2
+  }
+}
