@@ -1,0 +1,103 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 35,
+  "population": 18,
+  "enemypool": [
+    "Bayet",
+    "Clef",
+    "Drizzly Bear",
+    "Ore Gano",
+    "Optimistick"
+  ],
+  "floors": 9,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "memory",
+      "Room2": "booby",
+      "Room3": "spike",
+      "Room4": "stairs"
+    },
+    "Floor2": {
+      "Room1": "jumps",
+      "Room2": "mirror",
+      "Room3": "jumps",
+      "Room4": "stairs"
+    },
+    "Floor3": {
+      "Room1": "jumps",
+      "Room2": "stairs"
+    },
+    "Floor4": {
+      "Room1": "guards",
+      "Room2": "stairs"
+    },
+    "Floor5": {
+      "Room1": "memory",
+      "Room2": "match1",
+      "Room3": "jumps",
+      "Room4": "stairs"
+    },
+    "Floor6": {
+      "Room1": "jumps",
+      "Room2": "match2",
+      "Room3": "booby",
+      "Room4": "stairs"
+    },
+    "Floor7": {
+      "Room1": "memory",
+      "Room2": "stairs"
+    },
+    "Floor8": {
+      "Room1": "match1",
+      "Room2": "stairs"
+    },
+    "Floor9": {
+      "Room1": "stairs",
+      "Room2": "match1",
+      "Room3": "mirror",
+      "Room4": "stairs"
+    },
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 4,
+    "Floor2": 4,
+    "Floor3": 2,
+    "Floor4": 2,
+    "Floor5": 4,
+    "Floor6": 4,
+    "Floor7": 2,
+    "Floor8": 2,
+    "Floor9": 4,
+    "Floor10": 4
+  },
+  "PlayerStats": {
+    "HP": 281,
+    "ATK": 18,
+    "DEF": 7,
+    "Lvl": 1,
+    "VP": 60
+  },
+  "Weather": {
+    "TempF": -31,
+    "TempC": -35,
+    "TempStateF": "deadly cold",
+    "TempStateC": "deadly cold",
+    "Humidity": "mildly dry",
+    "Wind": "calm",
+    "Season": "Autumn",
+    "Rain": "torrential",
+    "Conditions": [
+      "snow"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 630,
+    "ATK": 22,
+    "DEF": 6,
+    "Lvl": 1
+  }
+}
