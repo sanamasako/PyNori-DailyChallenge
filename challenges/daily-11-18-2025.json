@@ -1,0 +1,115 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 55,
+  "population": 23,
+  "enemypool": [
+    "Optimistick",
+    "Ore Gano",
+    "Clef",
+    "Drizzly Bear",
+    "Oh Deer",
+    "Siwi",
+    "Bayet",
+    "Simi",
+    "Deer God"
+  ],
+  "floors": 10,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "match1",
+      "Room2": "jumps",
+      "Room3": "stairs"
+    },
+    "Floor2": {
+      "Room1": "guards",
+      "Room2": "match2",
+      "Room3": "stairs"
+    },
+    "Floor3": {
+      "Room1": "guards",
+      "Room2": "stairs"
+    },
+    "Floor4": {
+      "Room1": "match2",
+      "Room2": "stairs"
+    },
+    "Floor5": {
+      "Room1": "match2",
+      "Room2": "spike",
+      "Room3": "stairs"
+    },
+    "Floor6": {
+      "Room1": "saws",
+      "Room2": "memory",
+      "Room3": "match1",
+      "Room4": "spike",
+      "Room5": "stairs"
+    },
+    "Floor7": {
+      "Room1": "dark",
+      "Room2": "jumps",
+      "Room3": "spike",
+      "Room4": "stairs"
+    },
+    "Floor8": {
+      "Room1": "memory",
+      "Room2": "stairs"
+    },
+    "Floor9": {
+      "Room1": "saws",
+      "Room2": "stairs",
+      "Room3": "saws",
+      "Room4": "match1",
+      "Room5": "stairs"
+    },
+    "Floor10": {
+      "Room1": "saws",
+      "Room2": "match1",
+      "Room3": "mirror",
+      "Room4": "spike",
+      "Room5": "stairs"
+    }
+  },
+  "FloorRooms": {
+    "Floor1": 3,
+    "Floor2": 3,
+    "Floor3": 2,
+    "Floor4": 2,
+    "Floor5": 3,
+    "Floor6": 5,
+    "Floor7": 4,
+    "Floor8": 2,
+    "Floor9": 5,
+    "Floor10": 5
+  },
+  "PlayerStats": {
+    "HP": 373,
+    "ATK": 2,
+    "DEF": 2,
+    "Lvl": 1,
+    "VP": 180
+  },
+  "Weather": {
+    "TempF": 116,
+    "TempC": 47,
+    "TempStateF": "extreme heat",
+    "TempStateC": "extreme heat",
+    "Humidity": "very humid",
+    "Wind": "breezy",
+    "Season": "Autumn",
+    "Rain": "torrential",
+    "Conditions": [
+      "rain",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 453,
+    "ATK": 25,
+    "DEF": 21,
+    "Lvl": 3
+  }
+}
