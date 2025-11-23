@@ -1,0 +1,114 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 30,
+  "population": 15,
+  "enemypool": [
+    "Clef",
+    "Deer God",
+    "Pessimistick",
+    "Optimistick",
+    "Oh Deer",
+    "Drizzly Bear",
+    "Ore Gano",
+    "Siwi",
+    "Simi",
+    "Bayet"
+  ],
+  "floors": 10,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "jumps",
+      "Room2": "saws",
+      "Room3": "stairs"
+    },
+    "Floor2": {
+      "Room1": "guards",
+      "Room2": "stairs"
+    },
+    "Floor3": {
+      "Room1": "memory",
+      "Room2": "saws",
+      "Room3": "guards",
+      "Room4": "stairs"
+    },
+    "Floor4": {
+      "Room1": "booby",
+      "Room2": "stairs"
+    },
+    "Floor5": {
+      "Room1": "guards",
+      "Room2": "saws",
+      "Room3": "spike",
+      "Room4": "spike",
+      "Room5": "stairs"
+    },
+    "Floor6": {
+      "Room1": "booby",
+      "Room2": "booby",
+      "Room3": "stairs"
+    },
+    "Floor7": {
+      "Room1": "match1",
+      "Room2": "match2",
+      "Room3": "stairs"
+    },
+    "Floor8": {
+      "Room1": "guards",
+      "Room2": "stairs"
+    },
+    "Floor9": {
+      "Room1": "booby",
+      "Room2": "saws",
+      "Room3": "saws",
+      "Room4": "stairs",
+      "Room5": "stairs"
+    },
+    "Floor10": {
+      "Room1": "match1",
+      "Room2": "booby",
+      "Room3": "stairs"
+    }
+  },
+  "FloorRooms": {
+    "Floor1": 3,
+    "Floor2": 2,
+    "Floor3": 4,
+    "Floor4": 2,
+    "Floor5": 5,
+    "Floor6": 3,
+    "Floor7": 3,
+    "Floor8": 2,
+    "Floor9": 5,
+    "Floor10": 3
+  },
+  "PlayerStats": {
+    "HP": 40,
+    "ATK": 16,
+    "DEF": 18,
+    "Lvl": 3,
+    "VP": 60
+  },
+  "Weather": {
+    "TempF": -13,
+    "TempC": -25,
+    "TempStateF": "extreme cold",
+    "TempStateC": "extreme cold",
+    "Humidity": "mildly humid",
+    "Wind": "windy",
+    "Season": "Winter",
+    "Rain": "moderate",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 743,
+    "ATK": 19,
+    "DEF": 7,
+    "Lvl": 1
+  }
+}
