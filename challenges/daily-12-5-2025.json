@@ -1,0 +1,74 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "lair",
+  "steps": 40,
+  "population": 20,
+  "enemypool": [
+    "Optimistick",
+    "Simi",
+    "Clef",
+    "Pessimistick",
+    "Siwi",
+    "Drizzly Bear",
+    "Deer God",
+    "Bayet"
+  ],
+  "floors": 1,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "booby",
+      "Room2": "match2",
+      "Room3": "spike",
+      "Room4": "stairs"
+    },
+    "Floor2": {},
+    "Floor3": {},
+    "Floor4": {},
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 4,
+    "Floor2": 4,
+    "Floor3": 4,
+    "Floor4": 3,
+    "Floor5": 4,
+    "Floor6": 2,
+    "Floor7": 2,
+    "Floor8": 3,
+    "Floor9": 4,
+    "Floor10": 5
+  },
+  "PlayerStats": {
+    "HP": 337,
+    "ATK": 14,
+    "DEF": 8,
+    "Lvl": 2,
+    "VP": 90
+  },
+  "Weather": {
+    "TempF": 71,
+    "TempC": 22,
+    "TempStateF": "moderate heat",
+    "TempStateC": "deadly heat",
+    "Humidity": "very dry",
+    "Wind": "breezy",
+    "Season": "Summer",
+    "Rain": "none",
+    "Conditions": [
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 166,
+    "ATK": 23,
+    "DEF": 5,
+    "Lvl": 1
+  }
+}
