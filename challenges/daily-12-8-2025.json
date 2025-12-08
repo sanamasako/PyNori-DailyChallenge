@@ -1,0 +1,112 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "lair",
+  "steps": 20,
+  "population": 10,
+  "enemypool": [
+    "Ore Gano",
+    "Simi",
+    "Clef",
+    "Bayet"
+  ],
+  "floors": 10,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "saws",
+      "Room2": "stairs",
+      "Room3": "saws",
+      "Room4": "stairs"
+    },
+    "Floor2": {
+      "Room1": "match1",
+      "Room2": "memory",
+      "Room3": "saws",
+      "Room4": "stairs"
+    },
+    "Floor3": {
+      "Room1": "saws",
+      "Room2": "mirror",
+      "Room3": "guards",
+      "Room4": "saws",
+      "Room5": "stairs"
+    },
+    "Floor4": {
+      "Room1": "memory",
+      "Room2": "stairs"
+    },
+    "Floor5": {
+      "Room1": "mirror",
+      "Room2": "mirror",
+      "Room3": "jumps",
+      "Room4": "stairs"
+    },
+    "Floor6": {
+      "Room1": "guards",
+      "Room2": "booby",
+      "Room3": "stairs"
+    },
+    "Floor7": {
+      "Room1": "memory",
+      "Room2": "memory",
+      "Room3": "booby",
+      "Room4": "stairs"
+    },
+    "Floor8": {
+      "Room1": "booby",
+      "Room2": "mirror",
+      "Room3": "saws",
+      "Room4": "stairs"
+    },
+    "Floor9": {
+      "Room1": "booby",
+      "Room2": "spike",
+      "Room3": "stairs"
+    },
+    "Floor10": {
+      "Room1": "match2",
+      "Room2": "memory",
+      "Room3": "stairs"
+    }
+  },
+  "FloorRooms": {
+    "Floor1": 4,
+    "Floor2": 4,
+    "Floor3": 5,
+    "Floor4": 2,
+    "Floor5": 4,
+    "Floor6": 3,
+    "Floor7": 4,
+    "Floor8": 4,
+    "Floor9": 3,
+    "Floor10": 3
+  },
+  "PlayerStats": {
+    "HP": 459,
+    "ATK": 20,
+    "DEF": 14,
+    "Lvl": 2,
+    "VP": 160
+  },
+  "Weather": {
+    "TempF": -37,
+    "TempC": -38,
+    "TempStateF": "deadly cold",
+    "TempStateC": "deadly cold",
+    "Humidity": "very humid",
+    "Wind": "deadly wind",
+    "Season": "Spring",
+    "Rain": "torrential",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 197,
+    "ATK": 27,
+    "DEF": 8,
+    "Lvl": 2
+  }
+}
