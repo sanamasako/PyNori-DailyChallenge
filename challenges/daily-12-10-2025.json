@@ -1,0 +1,93 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "lair",
+  "steps": 20,
+  "population": 10,
+  "enemypool": [
+    "Clef",
+    "Bayet",
+    "Oh Deer",
+    "Drizzly Bear",
+    "Pessimistick"
+  ],
+  "floors": 5,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "jumps",
+      "Room2": "memory",
+      "Room3": "jumps",
+      "Room4": "dark",
+      "Room5": "stairs"
+    },
+    "Floor2": {
+      "Room1": "mirror",
+      "Room2": "spike",
+      "Room3": "stairs"
+    },
+    "Floor3": {
+      "Room1": "match2",
+      "Room2": "memory",
+      "Room3": "match1",
+      "Room4": "stairs",
+      "Room5": "stairs"
+    },
+    "Floor4": {
+      "Room1": "memory",
+      "Room2": "jumps",
+      "Room3": "dark",
+      "Room4": "memory",
+      "Room5": "stairs"
+    },
+    "Floor5": {
+      "Room1": "match1",
+      "Room2": "match1",
+      "Room3": "stairs"
+    },
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 5,
+    "Floor2": 3,
+    "Floor3": 5,
+    "Floor4": 5,
+    "Floor5": 3,
+    "Floor6": 5,
+    "Floor7": 4,
+    "Floor8": 5,
+    "Floor9": 3,
+    "Floor10": 5
+  },
+  "PlayerStats": {
+    "HP": 273,
+    "ATK": 5,
+    "DEF": 7,
+    "Lvl": 1,
+    "VP": 90
+  },
+  "Weather": {
+    "TempF": -19,
+    "TempC": -28,
+    "TempStateF": "extreme cold",
+    "TempStateC": "deadly heat",
+    "Humidity": "neutral",
+    "Wind": "breezy",
+    "Season": "Summer",
+    "Rain": "light",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 621,
+    "ATK": 29,
+    "DEF": 5,
+    "Lvl": 1
+  }
+}
