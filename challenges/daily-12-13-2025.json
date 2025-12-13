@@ -1,0 +1,71 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "lair",
+  "steps": 70,
+  "population": 33,
+  "enemypool": [
+    "Siwi",
+    "Deer God",
+    "Simi",
+    "Bayet",
+    "Oh Deer",
+    "Pessimistick"
+  ],
+  "floors": 1,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "jumps",
+      "Room2": "mirror",
+      "Room3": "stairs"
+    },
+    "Floor2": {},
+    "Floor3": {},
+    "Floor4": {},
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 3,
+    "Floor2": 3,
+    "Floor3": 4,
+    "Floor4": 2,
+    "Floor5": 5,
+    "Floor6": 5,
+    "Floor7": 4,
+    "Floor8": 2,
+    "Floor9": 4,
+    "Floor10": 4
+  },
+  "PlayerStats": {
+    "HP": 475,
+    "ATK": 11,
+    "DEF": 2,
+    "Lvl": 1,
+    "VP": 120
+  },
+  "Weather": {
+    "TempF": 112,
+    "TempC": 44,
+    "TempStateF": "extreme heat",
+    "TempStateC": "extreme heat",
+    "Humidity": "very dry",
+    "Wind": "deadly wind",
+    "Season": "Spring",
+    "Rain": "none",
+    "Conditions": [
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 108,
+    "ATK": 19,
+    "DEF": 18,
+    "Lvl": 3
+  }
+}
