@@ -1,8 +1,6 @@
 # PyNori Daily Challenge Generator
 As the repository name implies, this exists solely to automatically generate **JSON files** (found in "challenges/") to be used in [PyNori](https://shirley-xml.itch.io/pynori) version 2.0.0 or newer for the "Daily Challenge" feature.
 
-**11/10/2025: UNTIL THE RELEASE OF v2.3.0, PLEASE DISREGARD ANY MESSAGES TELLING YOU TO UPDATE THE GAME TO PLAY A CHALLENGE. THE UPDATE IS NOT READY YET.**
-
 ### What exactly is going on here?
 Every day at midnight UTC (or at least, approximately), a workflow will automatically execute which generates a new challenge JSON in the format of "daily-MM-DD-YYYY.json", where MM is the current month, DD is the current day, and YYYY is the current year.
 **Yes, I use Month/Day/Year format. If you don't, get used to it. I hate all the other formats.**
