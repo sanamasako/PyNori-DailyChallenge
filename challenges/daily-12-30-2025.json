@@ -1,0 +1,82 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 35,
+  "population": 18,
+  "enemypool": [
+    "Ore Gano",
+    "Pessimistick",
+    "Bayet",
+    "Drizzly Bear",
+    "Oh Deer",
+    "Deer God",
+    "Optimistick",
+    "Clef",
+    "Siwi"
+  ],
+  "floors": 2,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "match2",
+      "Room2": "stairs",
+      "Room3": "spike",
+      "Room4": "match1",
+      "Room5": "stairs"
+    },
+    "Floor2": {
+      "Room1": "spike",
+      "Room2": "spike",
+      "Room3": "match2",
+      "Room4": "stairs"
+    },
+    "Floor3": {},
+    "Floor4": {},
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 5,
+    "Floor2": 4,
+    "Floor3": 4,
+    "Floor4": 4,
+    "Floor5": 2,
+    "Floor6": 3,
+    "Floor7": 5,
+    "Floor8": 3,
+    "Floor9": 2,
+    "Floor10": 5
+  },
+  "PlayerStats": {
+    "HP": 417,
+    "ATK": 17,
+    "DEF": 15,
+    "Lvl": 2,
+    "VP": 120
+  },
+  "Weather": {
+    "TempF": 68,
+    "TempC": 20,
+    "TempStateF": "mild heat",
+    "TempStateC": "mild heat",
+    "Humidity": "mildly humid",
+    "Wind": "deadly wind",
+    "Season": "Winter",
+    "Rain": "torrential",
+    "Conditions": [
+      "rain",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 105,
+    "ATK": 24,
+    "DEF": 17,
+    "Lvl": 3
+  }
+}
