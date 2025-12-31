@@ -1,0 +1,84 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 60,
+  "population": 18,
+  "enemypool": [
+    "Deer God",
+    "Drizzly Bear",
+    "Clef",
+    "Siwi",
+    "Bayet",
+    "Pessimistick",
+    "Oh Deer",
+    "Simi",
+    "Optimistick"
+  ],
+  "floors": 3,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "memory",
+      "Room2": "booby",
+      "Room3": "match2",
+      "Room4": "stairs"
+    },
+    "Floor2": {
+      "Room1": "guards",
+      "Room2": "jumps",
+      "Room3": "stairs"
+    },
+    "Floor3": {
+      "Room1": "saws",
+      "Room2": "match2",
+      "Room3": "stairs"
+    },
+    "Floor4": {},
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 4,
+    "Floor2": 3,
+    "Floor3": 3,
+    "Floor4": 5,
+    "Floor5": 5,
+    "Floor6": 3,
+    "Floor7": 5,
+    "Floor8": 2,
+    "Floor9": 4,
+    "Floor10": 2
+  },
+  "PlayerStats": {
+    "HP": 34,
+    "ATK": 2,
+    "DEF": 10,
+    "Lvl": 2,
+    "VP": 100
+  },
+  "Weather": {
+    "TempF": 112,
+    "TempC": 44,
+    "TempStateF": "extreme heat",
+    "TempStateC": "extreme heat",
+    "Humidity": "very humid",
+    "Wind": "strong wind",
+    "Season": "Spring",
+    "Rain": "torrential",
+    "Conditions": [
+      "rain",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 617,
+    "ATK": 27,
+    "DEF": 30,
+    "Lvl": 4
+  }
+}
