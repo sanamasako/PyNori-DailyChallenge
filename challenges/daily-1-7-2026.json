@@ -1,0 +1,85 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "lair",
+  "steps": 70,
+  "population": 35,
+  "enemypool": [
+    "Siwi",
+    "Pessimistick",
+    "Bayet",
+    "Drizzly Bear",
+    "Deer God",
+    "Optimistick",
+    "Simi",
+    "Clef"
+  ],
+  "floors": 4,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "match2",
+      "Room2": "memory",
+      "Room3": "stairs"
+    },
+    "Floor2": {
+      "Room1": "stairs",
+      "Room2": "stairs"
+    },
+    "Floor3": {
+      "Room1": "stairs",
+      "Room2": "mirror",
+      "Room3": "memory",
+      "Room4": "stairs"
+    },
+    "Floor4": {
+      "Room1": "match1",
+      "Room2": "mirror",
+      "Room3": "stairs"
+    },
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 3,
+    "Floor2": 2,
+    "Floor3": 4,
+    "Floor4": 3,
+    "Floor5": 3,
+    "Floor6": 2,
+    "Floor7": 4,
+    "Floor8": 3,
+    "Floor9": 3,
+    "Floor10": 5
+  },
+  "PlayerStats": {
+    "HP": 85,
+    "ATK": 18,
+    "DEF": 6,
+    "Lvl": 1,
+    "VP": 60
+  },
+  "Weather": {
+    "TempF": 57,
+    "TempC": 14,
+    "TempStateF": "neutral",
+    "TempStateC": "neutral",
+    "Humidity": "neutral",
+    "Wind": "calm",
+    "Season": "Spring",
+    "Rain": "heavy",
+    "Conditions": [
+      "rain"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 789,
+    "ATK": 11,
+    "DEF": 22,
+    "Lvl": 3
+  }
+}
