@@ -1,0 +1,96 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "lair",
+  "steps": 90,
+  "population": 29,
+  "enemypool": [
+    "Oh Deer",
+    "Bayet",
+    "Ore Gano",
+    "Simi"
+  ],
+  "floors": 7,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "spike",
+      "Room2": "booby",
+      "Room3": "match1",
+      "Room4": "match1",
+      "Room5": "stairs"
+    },
+    "Floor2": {
+      "Room1": "spike",
+      "Room2": "stairs"
+    },
+    "Floor3": {
+      "Room1": "memory",
+      "Room2": "memory",
+      "Room3": "stairs"
+    },
+    "Floor4": {
+      "Room1": "stairs",
+      "Room2": "match1",
+      "Room3": "stairs"
+    },
+    "Floor5": {
+      "Room1": "match2",
+      "Room2": "stairs",
+      "Room3": "dark",
+      "Room4": "spike",
+      "Room5": "stairs"
+    },
+    "Floor6": {
+      "Room1": "memory",
+      "Room2": "stairs"
+    },
+    "Floor7": {
+      "Room1": "match1",
+      "Room2": "jumps",
+      "Room3": "stairs"
+    },
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 5,
+    "Floor2": 2,
+    "Floor3": 3,
+    "Floor4": 3,
+    "Floor5": 5,
+    "Floor6": 2,
+    "Floor7": 3,
+    "Floor8": 4,
+    "Floor9": 2,
+    "Floor10": 5
+  },
+  "PlayerStats": {
+    "HP": 442,
+    "ATK": 15,
+    "DEF": 11,
+    "Lvl": 2,
+    "VP": 60
+  },
+  "Weather": {
+    "TempF": 2,
+    "TempC": -17,
+    "TempStateF": "moderate cold",
+    "TempStateC": "moderate cold",
+    "Humidity": "mildly humid",
+    "Wind": "deadly wind",
+    "Season": "Spring",
+    "Rain": "moderate",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 359,
+    "ATK": 5,
+    "DEF": 30,
+    "Lvl": 4
+  }
+}
