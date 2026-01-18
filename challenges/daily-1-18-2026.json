@@ -1,0 +1,73 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 15,
+  "population": 8,
+  "enemypool": [
+    "Pessimistick",
+    "Drizzly Bear",
+    "Simi",
+    "Ore Gano",
+    "Optimistick",
+    "Bayet",
+    "Deer God",
+    "Siwi"
+  ],
+  "floors": 1,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "saws",
+      "Room2": "stairs"
+    },
+    "Floor2": {},
+    "Floor3": {},
+    "Floor4": {},
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 2,
+    "Floor2": 4,
+    "Floor3": 2,
+    "Floor4": 4,
+    "Floor5": 2,
+    "Floor6": 3,
+    "Floor7": 3,
+    "Floor8": 4,
+    "Floor9": 2,
+    "Floor10": 2
+  },
+  "PlayerStats": {
+    "HP": 86,
+    "ATK": 4,
+    "DEF": 12,
+    "Lvl": 2,
+    "VP": 130
+  },
+  "Weather": {
+    "TempF": 69,
+    "TempC": 21,
+    "TempStateF": "mild heat",
+    "TempStateC": "mild heat",
+    "Humidity": "very dry",
+    "Wind": "deadly wind",
+    "Season": "Spring",
+    "Rain": "light",
+    "Conditions": [
+      "rain",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 407,
+    "ATK": 7,
+    "DEF": 30,
+    "Lvl": 4
+  }
+}
