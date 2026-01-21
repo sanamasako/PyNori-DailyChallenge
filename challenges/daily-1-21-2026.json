@@ -1,0 +1,111 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "lair",
+  "steps": 30,
+  "population": 15,
+  "enemypool": [
+    "Siwi",
+    "Pessimistick",
+    "Simi",
+    "Drizzly Bear",
+    "Optimistick",
+    "Ore Gano",
+    "Clef"
+  ],
+  "floors": 10,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "guards",
+      "Room2": "booby",
+      "Room3": "match1",
+      "Room4": "stairs"
+    },
+    "Floor2": {
+      "Room1": "spike",
+      "Room2": "match2",
+      "Room3": "stairs",
+      "Room4": "stairs"
+    },
+    "Floor3": {
+      "Room1": "jumps",
+      "Room2": "stairs"
+    },
+    "Floor4": {
+      "Room1": "stairs",
+      "Room2": "stairs"
+    },
+    "Floor5": {
+      "Room1": "dark",
+      "Room2": "stairs"
+    },
+    "Floor6": {
+      "Room1": "match2",
+      "Room2": "match2",
+      "Room3": "stairs"
+    },
+    "Floor7": {
+      "Room1": "dark",
+      "Room2": "stairs",
+      "Room3": "jumps",
+      "Room4": "match2",
+      "Room5": "stairs"
+    },
+    "Floor8": {
+      "Room1": "jumps",
+      "Room2": "booby",
+      "Room3": "stairs"
+    },
+    "Floor9": {
+      "Room1": "memory",
+      "Room2": "guards",
+      "Room3": "match2",
+      "Room4": "mirror",
+      "Room5": "stairs"
+    },
+    "Floor10": {
+      "Room1": "booby",
+      "Room2": "stairs"
+    }
+  },
+  "FloorRooms": {
+    "Floor1": 4,
+    "Floor2": 4,
+    "Floor3": 2,
+    "Floor4": 2,
+    "Floor5": 2,
+    "Floor6": 3,
+    "Floor7": 5,
+    "Floor8": 3,
+    "Floor9": 5,
+    "Floor10": 2
+  },
+  "PlayerStats": {
+    "HP": 45,
+    "ATK": 12,
+    "DEF": 15,
+    "Lvl": 2,
+    "VP": 70
+  },
+  "Weather": {
+    "TempF": 36,
+    "TempC": 2,
+    "TempStateF": "mild cold",
+    "TempStateC": "mild cold",
+    "Humidity": "very dry",
+    "Wind": "breezy",
+    "Season": "Spring",
+    "Rain": "heavy",
+    "Conditions": [
+      "rain",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 585,
+    "ATK": 16,
+    "DEF": 6,
+    "Lvl": 1
+  }
+}
