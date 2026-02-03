@@ -1,0 +1,118 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 70,
+  "population": 26,
+  "enemypool": [
+    "Clef",
+    "Bayet",
+    "Pessimistick",
+    "Siwi",
+    "Drizzly Bear"
+  ],
+  "floors": 10,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "spike",
+      "Room2": "guards",
+      "Room3": "stairs"
+    },
+    "Floor2": {
+      "Room1": "jumps",
+      "Room2": "jumps",
+      "Room3": "saws",
+      "Room4": "booby",
+      "Room5": "stairs"
+    },
+    "Floor3": {
+      "Room1": "guards",
+      "Room2": "guards",
+      "Room3": "dark",
+      "Room4": "mirror",
+      "Room5": "stairs"
+    },
+    "Floor4": {
+      "Room1": "guards",
+      "Room2": "saws",
+      "Room3": "memory",
+      "Room4": "match1",
+      "Room5": "stairs"
+    },
+    "Floor5": {
+      "Room1": "memory",
+      "Room2": "stairs"
+    },
+    "Floor6": {
+      "Room1": "saws",
+      "Room2": "memory",
+      "Room3": "stairs"
+    },
+    "Floor7": {
+      "Room1": "dark",
+      "Room2": "memory",
+      "Room3": "guards",
+      "Room4": "match1",
+      "Room5": "stairs"
+    },
+    "Floor8": {
+      "Room1": "dark",
+      "Room2": "booby",
+      "Room3": "saws",
+      "Room4": "stairs"
+    },
+    "Floor9": {
+      "Room1": "match1",
+      "Room2": "booby",
+      "Room3": "match2",
+      "Room4": "saws",
+      "Room5": "stairs"
+    },
+    "Floor10": {
+      "Room1": "memory",
+      "Room2": "saws",
+      "Room3": "dark",
+      "Room4": "stairs"
+    }
+  },
+  "FloorRooms": {
+    "Floor1": 3,
+    "Floor2": 5,
+    "Floor3": 5,
+    "Floor4": 5,
+    "Floor5": 2,
+    "Floor6": 3,
+    "Floor7": 5,
+    "Floor8": 4,
+    "Floor9": 5,
+    "Floor10": 4
+  },
+  "PlayerStats": {
+    "HP": 392,
+    "ATK": 18,
+    "DEF": 11,
+    "Lvl": 2,
+    "VP": 160
+  },
+  "Weather": {
+    "TempF": -19,
+    "TempC": -28,
+    "TempStateF": "extreme cold",
+    "TempStateC": "deadly heat",
+    "Humidity": "neutral",
+    "Wind": "breezy",
+    "Season": "Autumn",
+    "Rain": "heavy",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 304,
+    "ATK": 24,
+    "DEF": 6,
+    "Lvl": 1
+  }
+}
