@@ -1,0 +1,103 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "lair",
+  "steps": 100,
+  "population": 8,
+  "enemypool": [
+    "Pessimistick",
+    "Simi",
+    "Bayet",
+    "Drizzly Bear",
+    "Siwi"
+  ],
+  "floors": 8,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "jumps",
+      "Room2": "stairs",
+      "Room3": "match1",
+      "Room4": "match2",
+      "Room5": "stairs"
+    },
+    "Floor2": {
+      "Room1": "mirror",
+      "Room2": "stairs"
+    },
+    "Floor3": {
+      "Room1": "dark",
+      "Room2": "spike",
+      "Room3": "stairs"
+    },
+    "Floor4": {
+      "Room1": "stairs",
+      "Room2": "guards",
+      "Room3": "saws",
+      "Room4": "saws",
+      "Room5": "stairs"
+    },
+    "Floor5": {
+      "Room1": "saws",
+      "Room2": "stairs",
+      "Room3": "stairs"
+    },
+    "Floor6": {
+      "Room1": "match2",
+      "Room2": "match1",
+      "Room3": "stairs"
+    },
+    "Floor7": {
+      "Room1": "spike",
+      "Room2": "memory",
+      "Room3": "match2",
+      "Room4": "match2",
+      "Room5": "stairs"
+    },
+    "Floor8": {
+      "Room1": "dark",
+      "Room2": "stairs"
+    },
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 5,
+    "Floor2": 2,
+    "Floor3": 3,
+    "Floor4": 5,
+    "Floor5": 3,
+    "Floor6": 3,
+    "Floor7": 5,
+    "Floor8": 2,
+    "Floor9": 5,
+    "Floor10": 2
+  },
+  "PlayerStats": {
+    "HP": 488,
+    "ATK": 4,
+    "DEF": 2,
+    "Lvl": 1,
+    "VP": 150
+  },
+  "Weather": {
+    "TempF": 58,
+    "TempC": 14,
+    "TempStateF": "neutral",
+    "TempStateC": "neutral",
+    "Humidity": "neutral",
+    "Wind": "deadly wind",
+    "Season": "Spring",
+    "Rain": "light",
+    "Conditions": [
+      "rain",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 37,
+    "ATK": 22,
+    "DEF": 12,
+    "Lvl": 2
+  }
+}
