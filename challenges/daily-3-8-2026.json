@@ -1,0 +1,96 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "lair",
+  "steps": 35,
+  "population": 14,
+  "enemypool": [
+    "Deer God",
+    "Clef",
+    "Drizzly Bear",
+    "Ore Gano",
+    "Siwi",
+    "Bayet",
+    "Pessimistick",
+    "Oh Deer",
+    "Simi"
+  ],
+  "floors": 6,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "saws",
+      "Room2": "memory",
+      "Room3": "stairs"
+    },
+    "Floor2": {
+      "Room1": "saws",
+      "Room2": "stairs"
+    },
+    "Floor3": {
+      "Room1": "booby",
+      "Room2": "stairs"
+    },
+    "Floor4": {
+      "Room1": "stairs",
+      "Room2": "mirror",
+      "Room3": "stairs"
+    },
+    "Floor5": {
+      "Room1": "mirror",
+      "Room2": "saws",
+      "Room3": "stairs",
+      "Room4": "jumps",
+      "Room5": "stairs"
+    },
+    "Floor6": {
+      "Room1": "dark",
+      "Room2": "jumps",
+      "Room3": "stairs",
+      "Room4": "match2",
+      "Room5": "stairs"
+    },
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 3,
+    "Floor2": 2,
+    "Floor3": 2,
+    "Floor4": 3,
+    "Floor5": 5,
+    "Floor6": 5,
+    "Floor7": 4,
+    "Floor8": 4,
+    "Floor9": 3,
+    "Floor10": 4
+  },
+  "PlayerStats": {
+    "HP": 151,
+    "ATK": 6,
+    "DEF": 9,
+    "Lvl": 2,
+    "VP": 170
+  },
+  "Weather": {
+    "TempF": 97,
+    "TempC": 36,
+    "TempStateF": "extreme heat",
+    "TempStateC": "extreme heat",
+    "Humidity": "very dry",
+    "Wind": "strong wind",
+    "Season": "Spring",
+    "Rain": "none",
+    "Conditions": [
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 111,
+    "ATK": 12,
+    "DEF": 20,
+    "Lvl": 3
+  }
+}
