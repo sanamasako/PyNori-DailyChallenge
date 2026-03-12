@@ -1,0 +1,94 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 15,
+  "population": 8,
+  "enemypool": [
+    "Deer God",
+    "Clef",
+    "Ore Gano",
+    "Bayet",
+    "Siwi",
+    "Simi",
+    "Oh Deer"
+  ],
+  "floors": 5,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "saws",
+      "Room2": "booby",
+      "Room3": "guards",
+      "Room4": "match2",
+      "Room5": "stairs"
+    },
+    "Floor2": {
+      "Room1": "guards",
+      "Room2": "guards",
+      "Room3": "stairs"
+    },
+    "Floor3": {
+      "Room1": "jumps",
+      "Room2": "match1",
+      "Room3": "guards",
+      "Room4": "jumps",
+      "Room5": "stairs"
+    },
+    "Floor4": {
+      "Room1": "guards",
+      "Room2": "memory",
+      "Room3": "stairs"
+    },
+    "Floor5": {
+      "Room1": "match1",
+      "Room2": "booby",
+      "Room3": "stairs",
+      "Room4": "stairs"
+    },
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 5,
+    "Floor2": 3,
+    "Floor3": 5,
+    "Floor4": 3,
+    "Floor5": 4,
+    "Floor6": 4,
+    "Floor7": 4,
+    "Floor8": 4,
+    "Floor9": 3,
+    "Floor10": 2
+  },
+  "PlayerStats": {
+    "HP": 272,
+    "ATK": 13,
+    "DEF": 10,
+    "Lvl": 2,
+    "VP": 190
+  },
+  "Weather": {
+    "TempF": 64,
+    "TempC": 18,
+    "TempStateF": "mild heat",
+    "TempStateC": "mild heat",
+    "Humidity": "very humid",
+    "Wind": "powerful wind",
+    "Season": "Autumn",
+    "Rain": "torrential",
+    "Conditions": [
+      "rain",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 69,
+    "ATK": 6,
+    "DEF": 7,
+    "Lvl": 1
+  }
+}
