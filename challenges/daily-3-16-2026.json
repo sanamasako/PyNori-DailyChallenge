@@ -1,0 +1,76 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 25,
+  "population": 12,
+  "enemypool": [
+    "Siwi",
+    "Ore Gano",
+    "Oh Deer",
+    "Clef",
+    "Drizzly Bear",
+    "Bayet",
+    "Simi",
+    "Deer God"
+  ],
+  "floors": 1,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "memory",
+      "Room2": "spike",
+      "Room3": "guards",
+      "Room4": "stairs",
+      "Room5": "stairs"
+    },
+    "Floor2": {},
+    "Floor3": {},
+    "Floor4": {},
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 5,
+    "Floor2": 2,
+    "Floor3": 2,
+    "Floor4": 5,
+    "Floor5": 3,
+    "Floor6": 2,
+    "Floor7": 4,
+    "Floor8": 2,
+    "Floor9": 2,
+    "Floor10": 3
+  },
+  "PlayerStats": {
+    "HP": 398,
+    "ATK": 16,
+    "DEF": 8,
+    "Lvl": 2,
+    "VP": 90
+  },
+  "Weather": {
+    "TempF": 29,
+    "TempC": -2,
+    "TempStateF": "moderate cold",
+    "TempStateC": "moderate cold",
+    "Humidity": "neutral",
+    "Wind": "windy",
+    "Season": "Autumn",
+    "Rain": "moderate",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 776,
+    "ATK": 6,
+    "DEF": 19,
+    "Lvl": 3
+  }
+}
