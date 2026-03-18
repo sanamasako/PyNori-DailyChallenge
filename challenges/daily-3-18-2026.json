@@ -1,0 +1,87 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 80,
+  "population": 14,
+  "enemypool": [
+    "Drizzly Bear",
+    "Bayet",
+    "Optimistick",
+    "Simi",
+    "Ore Gano",
+    "Pessimistick",
+    "Siwi",
+    "Clef"
+  ],
+  "floors": 4,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "booby",
+      "Room2": "spike",
+      "Room3": "memory",
+      "Room4": "stairs"
+    },
+    "Floor2": {
+      "Room1": "booby",
+      "Room2": "match1",
+      "Room3": "spike",
+      "Room4": "saws",
+      "Room5": "stairs"
+    },
+    "Floor3": {
+      "Room1": "guards",
+      "Room2": "stairs"
+    },
+    "Floor4": {
+      "Room1": "booby",
+      "Room2": "jumps",
+      "Room3": "stairs"
+    },
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 4,
+    "Floor2": 5,
+    "Floor3": 2,
+    "Floor4": 3,
+    "Floor5": 4,
+    "Floor6": 2,
+    "Floor7": 5,
+    "Floor8": 3,
+    "Floor9": 3,
+    "Floor10": 4
+  },
+  "PlayerStats": {
+    "HP": 221,
+    "ATK": 4,
+    "DEF": 5,
+    "Lvl": 1,
+    "VP": 190
+  },
+  "Weather": {
+    "TempF": 73,
+    "TempC": 23,
+    "TempStateF": "moderate heat",
+    "TempStateC": "moderate heat",
+    "Humidity": "very dry",
+    "Wind": "strong wind",
+    "Season": "Spring",
+    "Rain": "none",
+    "Conditions": [
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 164,
+    "ATK": 17,
+    "DEF": 21,
+    "Lvl": 3
+  }
+}
