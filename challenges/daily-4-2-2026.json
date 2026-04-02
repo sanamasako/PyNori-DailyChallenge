@@ -1,0 +1,116 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "lair",
+  "steps": 90,
+  "population": 32,
+  "enemypool": [
+    "Ore Gano",
+    "Siwi",
+    "Optimistick",
+    "Simi",
+    "Oh Deer",
+    "Clef",
+    "Deer God",
+    "Drizzly Bear"
+  ],
+  "floors": 9,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "jumps",
+      "Room2": "stairs",
+      "Room3": "booby",
+      "Room4": "guards",
+      "Room5": "stairs"
+    },
+    "Floor2": {
+      "Room1": "match2",
+      "Room2": "booby",
+      "Room3": "dark",
+      "Room4": "stairs",
+      "Room5": "stairs"
+    },
+    "Floor3": {
+      "Room1": "match1",
+      "Room2": "match2",
+      "Room3": "mirror",
+      "Room4": "stairs",
+      "Room5": "stairs"
+    },
+    "Floor4": {
+      "Room1": "match2",
+      "Room2": "stairs"
+    },
+    "Floor5": {
+      "Room1": "match2",
+      "Room2": "saws",
+      "Room3": "booby",
+      "Room4": "match1",
+      "Room5": "stairs"
+    },
+    "Floor6": {
+      "Room1": "spike",
+      "Room2": "memory",
+      "Room3": "stairs"
+    },
+    "Floor7": {
+      "Room1": "dark",
+      "Room2": "mirror",
+      "Room3": "guards",
+      "Room4": "spike",
+      "Room5": "stairs"
+    },
+    "Floor8": {
+      "Room1": "memory",
+      "Room2": "mirror",
+      "Room3": "dark",
+      "Room4": "stairs"
+    },
+    "Floor9": {
+      "Room1": "guards",
+      "Room2": "stairs",
+      "Room3": "spike",
+      "Room4": "stairs"
+    },
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 5,
+    "Floor2": 5,
+    "Floor3": 5,
+    "Floor4": 2,
+    "Floor5": 5,
+    "Floor6": 3,
+    "Floor7": 5,
+    "Floor8": 4,
+    "Floor9": 4,
+    "Floor10": 2
+  },
+  "PlayerStats": {
+    "HP": 38,
+    "ATK": 9,
+    "DEF": 13,
+    "Lvl": 2,
+    "VP": 190
+  },
+  "Weather": {
+    "TempF": -38,
+    "TempC": -39,
+    "TempStateF": "deadly cold",
+    "TempStateC": "deadly cold",
+    "Humidity": "mildly dry",
+    "Wind": "windy",
+    "Season": "Summer",
+    "Rain": "none",
+    "Conditions": [
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 307,
+    "ATK": 26,
+    "DEF": 28,
+    "Lvl": 4
+  }
+}
