@@ -1,0 +1,69 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "lair",
+  "steps": 50,
+  "population": 25,
+  "enemypool": [
+    "Pessimistick",
+    "Optimistick",
+    "Drizzly Bear",
+    "Ore Gano"
+  ],
+  "floors": 1,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "dark",
+      "Room2": "stairs"
+    },
+    "Floor2": {},
+    "Floor3": {},
+    "Floor4": {},
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 2,
+    "Floor2": 5,
+    "Floor3": 5,
+    "Floor4": 3,
+    "Floor5": 4,
+    "Floor6": 2,
+    "Floor7": 2,
+    "Floor8": 4,
+    "Floor9": 5,
+    "Floor10": 3
+  },
+  "PlayerStats": {
+    "HP": 127,
+    "ATK": 5,
+    "DEF": 10,
+    "Lvl": 2,
+    "VP": 200
+  },
+  "Weather": {
+    "TempF": -30,
+    "TempC": -34,
+    "TempStateF": "deadly cold",
+    "TempStateC": "deadly cold",
+    "Humidity": "mildly humid",
+    "Wind": "powerful wind",
+    "Season": "Summer",
+    "Rain": "torrential",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 43,
+    "ATK": 7,
+    "DEF": 25,
+    "Lvl": 4
+  }
+}
