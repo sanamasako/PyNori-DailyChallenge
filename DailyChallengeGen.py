@@ -24,7 +24,7 @@ def TempFetchCelsius(C):
 
 def GenerateChallenge():
 	TempF = random.randint(-40,120); TempC = (TempF-32)*(5/9); RandPlayerDEF = random.randint(2,20); RandEnemDEF = random.randint(4,30); StepsNeeded = random.randint(2,20)*5
-	EnemyList = ["Bayet", "Siwi", "Oh Deer", "Deer God", "Pessimistick", "Optimistick", "Drizzly Bear", "Simi", "Clef", "Ore Gano"]
+	EnemyList = ["Bayet", "Siwi", "Oh Deer", "Deer God", "Pessimistick", "Optimistick", "Drizzly Bear", "Simi", "Clef", "Ore Gano", "Miyu", "Abby See", "Stranger"]
 	Challenge = {
         "difficult": "false",
 		"verified": "false",
@@ -51,12 +51,7 @@ def GenerateChallenge():
 			"Rain": random.choice(["none", "light", "moderate", "heavy", "torrential"]),
 			"Conditions": []
         },
-	"CustomEnemy": {
-		"HP": random.randint(10,800),
-		"ATK": random.randint(2,30),
-		"DEF": RandEnemDEF,
-		"Lvl": (RandEnemDEF//8)+1
-        }
+	"CustomEnemy": {"HP": random.randint(10,800), "ATK": random.randint(2,30), "DEF": RandEnemDEF, "Lvl": (RandEnemDEF//8)+1}
     }
 	for i in range(10): Challenge["FloorData"][f"Floor{i+1}"] = {}
 	for i in range(10): Challenge["FloorRooms"][f"Floor{i+1}"] = random.randint(2,5)
@@ -69,6 +64,4 @@ def GenerateChallenge():
 	return Challenge
 
 ChallengeData = GenerateChallenge(); Date = datetime.datetime.now(); Month = Date.month; Day = Date.day; Year = Date.year
-with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "challenges", f"daily-{Month}-{Day}-{Year}.json"), "w") as f: json.dump(ChallengeData, f, indent=2)
-
-
+with open(os.path.join(os.getcwd(), "challenges", f"daily-{Month}-{Day}-{Year}.json"), "w") as f: json.dump(ChallengeData, f, indent=2)
