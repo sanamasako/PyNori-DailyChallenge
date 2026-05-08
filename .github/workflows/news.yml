@@ -19,10 +19,7 @@ jobs:
       - name: Generate Daily Challenge News
         run: |
           python - <<'PYCODE'
-          import json, os, datetime
-          news_file = "challenge_news.json"
-          changes_file = "recent_changes.txt"
-          Date = datetime.datetime.now(); date_str = f"{Date.month}/{Date.day}/{Date.year}"
+          import json, os, datetime; Date = datetime.datetime.now(); date_str = f"{Date.month}/{Date.day}/{Date.year}"
 
           def join_list(items):
               if len(items) == 1: return items[0]
@@ -33,16 +30,16 @@ jobs:
               def to_dt(d): m, day, y = map(int, d.split("/")); return datetime.date(y, m, day)
               return sorted(date_list, key=to_dt)
 
-          if os.path.exists(news_file):
-              with open(news_file, "r", encoding="utf-8") as f:
+          if os.path.exists("challenge_news.json"):
+              with open("challenge_news.json", "r", encoding="utf-8") as f:
                   try:
                       news_data = json.load(f)
                       if not isinstance(news_data, list): news_data = [news_data]
                   except json.JSONDecodeError: news_data = []
           else: news_data = []
 
-          if not os.path.exists(changes_file): print("No recent_changes.txt found — nothing to report."); os._exit(1)
-          with open(changes_file, "r", encoding="utf-8") as f: lines = [line.strip() for line in f.readlines() if line.strip()]
+          if not os.path.exists("recent_changes.txt"): print("No recent_changes.txt found; nothing to report."); os._exit(1)
+          with open("recent_changes.txt", "r", encoding="utf-8") as f: lines = [line.strip() for line in f.readlines() if line.strip()]
           if not lines: print("recent_changes.txt is empty — nothing to report."); os._exit(0)
           date_status = {}
 
@@ -72,9 +69,7 @@ jobs:
           messages = []
           for date_key in sort_dates(list(date_status.keys())):
               status = date_status[date_key]; parts = []
-              if status["verifiers"]:
-                  verifiers_str = join_list(sorted(status["verifiers"]))
-                  parts.append(f"verified by {verifiers_str}")
+              if status["verifiers"]: verifiers_str = join_list(sorted(status["verifiers"])); parts.append(f"verified by {verifiers_str}")
               if status["difficult"]: parts.append("marked as difficult")
               if status["generated"] and not (status["verifiers"] or status["difficult"]): parts.append("generated")
               message = f"Daily Challenge for {date_key} " + " and ".join(parts) + "."; messages.append(message)
@@ -85,7 +80,7 @@ jobs:
           existing_entry = next((entry for entry in news_data if entry["date"] == date_str), None)
           if existing_entry: existing_entry["message"] += "\n" + combined_message
           else: news_data.append(new_entry)
-          with open(news_file, "w", encoding="utf-8") as f: json.dump(news_data, f, indent=2)
+          with open("challenge_news.json", "w", encoding="utf-8") as f: json.dump(news_data, f, indent=2)
           print("Updated challenge_news.json with:\n", combined_message)
           PYCODE
 
