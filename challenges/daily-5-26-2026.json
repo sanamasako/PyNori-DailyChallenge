@@ -1,0 +1,90 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 25,
+  "population": 12,
+  "enemypool": [
+    "Miyu",
+    "Deer God",
+    "Bayet",
+    "Pessimistick",
+    "Abby See",
+    "Ore Gano",
+    "Optimistick"
+  ],
+  "floors": 5,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "stairs",
+      "Room2": "dark",
+      "Room3": "booby",
+      "Room4": "stairs"
+    },
+    "Floor2": {
+      "Room1": "mirror",
+      "Room2": "stairs"
+    },
+    "Floor3": {
+      "Room1": "jumps",
+      "Room2": "spike",
+      "Room3": "stairs"
+    },
+    "Floor4": {
+      "Room1": "dark",
+      "Room2": "spike",
+      "Room3": "stairs"
+    },
+    "Floor5": {
+      "Room1": "jumps",
+      "Room2": "guards",
+      "Room3": "booby",
+      "Room4": "stairs"
+    },
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 4,
+    "Floor2": 2,
+    "Floor3": 3,
+    "Floor4": 3,
+    "Floor5": 4,
+    "Floor6": 4,
+    "Floor7": 5,
+    "Floor8": 4,
+    "Floor9": 2,
+    "Floor10": 3
+  },
+  "PlayerStats": {
+    "HP": 356,
+    "ATK": 3,
+    "DEF": 15,
+    "Lvl": 2,
+    "VP": 170
+  },
+  "Weather": {
+    "TempF": -23,
+    "TempC": -31,
+    "TempStateF": "deadly cold",
+    "TempStateC": "deadly cold",
+    "Humidity": "very dry",
+    "Wind": "deadly wind",
+    "Season": "Autumn",
+    "Rain": "heavy",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 197,
+    "ATK": 20,
+    "DEF": 17,
+    "Lvl": 3
+  }
+}
