@@ -1,0 +1,72 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 85,
+  "population": 19,
+  "enemypool": [
+    "Optimistick",
+    "Abby See",
+    "Clef",
+    "Ore Gano"
+  ],
+  "floors": 1,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "dark",
+      "Room2": "booby",
+      "Room3": "match2",
+      "Room4": "booby",
+      "Room5": "stairs"
+    },
+    "Floor2": {},
+    "Floor3": {},
+    "Floor4": {},
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 5,
+    "Floor2": 4,
+    "Floor3": 2,
+    "Floor4": 2,
+    "Floor5": 2,
+    "Floor6": 5,
+    "Floor7": 4,
+    "Floor8": 4,
+    "Floor9": 4,
+    "Floor10": 3
+  },
+  "PlayerStats": {
+    "HP": 21,
+    "ATK": 17,
+    "DEF": 2,
+    "Lvl": 1,
+    "VP": 180
+  },
+  "Weather": {
+    "TempF": 56,
+    "TempC": 13,
+    "TempStateF": "neutral",
+    "TempStateC": "neutral",
+    "Humidity": "mildly humid",
+    "Wind": "windy",
+    "Season": "Winter",
+    "Rain": "torrential",
+    "Conditions": [
+      "rain",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 162,
+    "ATK": 26,
+    "DEF": 16,
+    "Lvl": 3
+  }
+}
