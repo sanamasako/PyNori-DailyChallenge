@@ -1,0 +1,81 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 80,
+  "population": 29,
+  "enemypool": [
+    "Oh Deer",
+    "Clef",
+    "Drizzly Bear",
+    "Siwi",
+    "Bayet",
+    "Optimistick",
+    "Miyu",
+    "Abby See",
+    "Stranger",
+    "Simi",
+    "Pessimistick",
+    "Deer God",
+    "Ore Gano"
+  ],
+  "floors": 1,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "saws",
+      "Room2": "mirror",
+      "Room3": "jumps",
+      "Room4": "jumps",
+      "Room5": "stairs"
+    },
+    "Floor2": {},
+    "Floor3": {},
+    "Floor4": {},
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 5,
+    "Floor2": 2,
+    "Floor3": 3,
+    "Floor4": 5,
+    "Floor5": 3,
+    "Floor6": 5,
+    "Floor7": 2,
+    "Floor8": 3,
+    "Floor9": 4,
+    "Floor10": 4
+  },
+  "PlayerStats": {
+    "HP": 443,
+    "ATK": 14,
+    "DEF": 13,
+    "Lvl": 2,
+    "VP": 170
+  },
+  "Weather": {
+    "TempF": 10,
+    "TempC": -12,
+    "TempStateF": "moderate cold",
+    "TempStateC": "moderate cold",
+    "Humidity": "mildly humid",
+    "Wind": "strong wind",
+    "Season": "Summer",
+    "Rain": "heavy",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 166,
+    "ATK": 9,
+    "DEF": 10,
+    "Lvl": 2
+  }
+}
