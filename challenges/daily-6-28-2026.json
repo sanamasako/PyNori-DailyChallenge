@@ -1,0 +1,76 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 100,
+  "population": 32,
+  "enemypool": [
+    "Deer God",
+    "Miyu",
+    "Siwi",
+    "Abby See",
+    "Clef",
+    "Ore Gano",
+    "Stranger"
+  ],
+  "floors": 2,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "mirror",
+      "Room2": "mirror",
+      "Room3": "stairs"
+    },
+    "Floor2": {
+      "Room1": "match1",
+      "Room2": "stairs"
+    },
+    "Floor3": {},
+    "Floor4": {},
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 3,
+    "Floor2": 2,
+    "Floor3": 2,
+    "Floor4": 2,
+    "Floor5": 3,
+    "Floor6": 3,
+    "Floor7": 2,
+    "Floor8": 3,
+    "Floor9": 5,
+    "Floor10": 5
+  },
+  "PlayerStats": {
+    "HP": 26,
+    "ATK": 8,
+    "DEF": 9,
+    "Lvl": 2,
+    "VP": 170
+  },
+  "Weather": {
+    "TempF": -35,
+    "TempC": -37,
+    "TempStateF": "deadly cold",
+    "TempStateC": "deadly cold",
+    "Humidity": "very humid",
+    "Wind": "powerful wind",
+    "Season": "Autumn",
+    "Rain": "heavy",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 21,
+    "ATK": 2,
+    "DEF": 20,
+    "Lvl": 3
+  }
+}
