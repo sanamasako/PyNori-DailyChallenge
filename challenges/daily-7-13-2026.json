@@ -1,0 +1,109 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 10,
+  "population": 5,
+  "enemypool": [
+    "Ore Gano",
+    "Bayet",
+    "Deer God",
+    "Abby See",
+    "Miyu",
+    "Clef"
+  ],
+  "floors": 9,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "guards",
+      "Room2": "booby",
+      "Room3": "stairs",
+      "Room4": "dark",
+      "Room5": "stairs"
+    },
+    "Floor2": {
+      "Room1": "memory",
+      "Room2": "booby",
+      "Room3": "stairs",
+      "Room4": "stairs"
+    },
+    "Floor3": {
+      "Room1": "mirror",
+      "Room2": "booby",
+      "Room3": "match2",
+      "Room4": "stairs"
+    },
+    "Floor4": {
+      "Room1": "dark",
+      "Room2": "stairs"
+    },
+    "Floor5": {
+      "Room1": "mirror",
+      "Room2": "dark",
+      "Room3": "spike",
+      "Room4": "jumps",
+      "Room5": "stairs"
+    },
+    "Floor6": {
+      "Room1": "guards",
+      "Room2": "stairs"
+    },
+    "Floor7": {
+      "Room1": "saws",
+      "Room2": "stairs"
+    },
+    "Floor8": {
+      "Room1": "spike",
+      "Room2": "stairs",
+      "Room3": "stairs"
+    },
+    "Floor9": {
+      "Room1": "memory",
+      "Room2": "match2",
+      "Room3": "mirror",
+      "Room4": "match1",
+      "Room5": "stairs"
+    },
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 5,
+    "Floor2": 4,
+    "Floor3": 4,
+    "Floor4": 2,
+    "Floor5": 5,
+    "Floor6": 2,
+    "Floor7": 2,
+    "Floor8": 3,
+    "Floor9": 5,
+    "Floor10": 2
+  },
+  "PlayerStats": {
+    "HP": 295,
+    "ATK": 16,
+    "DEF": 6,
+    "Lvl": 1,
+    "VP": 80
+  },
+  "Weather": {
+    "TempF": 75,
+    "TempC": 24,
+    "TempStateF": "moderate heat",
+    "TempStateC": "moderate heat",
+    "Humidity": "very dry",
+    "Wind": "powerful wind",
+    "Season": "Spring",
+    "Rain": "moderate",
+    "Conditions": [
+      "rain",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 698,
+    "ATK": 19,
+    "DEF": 9,
+    "Lvl": 2
+  }
+}
