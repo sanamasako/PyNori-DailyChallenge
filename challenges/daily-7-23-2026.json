@@ -1,0 +1,85 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 75,
+  "population": 23,
+  "enemypool": [
+    "Abby See",
+    "Pessimistick",
+    "Drizzly Bear",
+    "Siwi",
+    "Clef",
+    "Optimistick"
+  ],
+  "floors": 4,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "stairs",
+      "Room2": "booby",
+      "Room3": "stairs"
+    },
+    "Floor2": {
+      "Room1": "guards",
+      "Room2": "match2",
+      "Room3": "match1",
+      "Room4": "guards",
+      "Room5": "stairs"
+    },
+    "Floor3": {
+      "Room1": "jumps",
+      "Room2": "match1",
+      "Room3": "stairs"
+    },
+    "Floor4": {
+      "Room1": "mirror",
+      "Room2": "stairs"
+    },
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 3,
+    "Floor2": 5,
+    "Floor3": 3,
+    "Floor4": 2,
+    "Floor5": 3,
+    "Floor6": 3,
+    "Floor7": 4,
+    "Floor8": 4,
+    "Floor9": 2,
+    "Floor10": 3
+  },
+  "PlayerStats": {
+    "HP": 207,
+    "ATK": 9,
+    "DEF": 13,
+    "Lvl": 2,
+    "VP": 190
+  },
+  "Weather": {
+    "TempF": -14,
+    "TempC": -26,
+    "TempStateF": "extreme cold",
+    "TempStateC": "extreme cold",
+    "Humidity": "very humid",
+    "Wind": "windy",
+    "Season": "Spring",
+    "Rain": "heavy",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 272,
+    "ATK": 18,
+    "DEF": 10,
+    "Lvl": 2
+  }
+}
