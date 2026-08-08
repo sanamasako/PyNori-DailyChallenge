@@ -1,0 +1,73 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "battle",
+  "steps": 55,
+  "population": 14,
+  "enemypool": [
+    "Drizzly Bear",
+    "Simi",
+    "Pessimistick",
+    "Abby See",
+    "Optimistick",
+    "Siwi",
+    "Deer God"
+  ],
+  "floors": 1,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "stairs",
+      "Room2": "spike",
+      "Room3": "jumps",
+      "Room4": "stairs"
+    },
+    "Floor2": {},
+    "Floor3": {},
+    "Floor4": {},
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 4,
+    "Floor2": 5,
+    "Floor3": 3,
+    "Floor4": 2,
+    "Floor5": 3,
+    "Floor6": 5,
+    "Floor7": 4,
+    "Floor8": 2,
+    "Floor9": 2,
+    "Floor10": 2
+  },
+  "PlayerStats": {
+    "HP": 496,
+    "ATK": 11,
+    "DEF": 15,
+    "Lvl": 2,
+    "VP": 60
+  },
+  "Weather": {
+    "TempF": 81,
+    "TempC": 27,
+    "TempStateF": "moderate heat",
+    "TempStateC": "moderate heat",
+    "Humidity": "mildly dry",
+    "Wind": "strong wind",
+    "Season": "Spring",
+    "Rain": "none",
+    "Conditions": [
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 466,
+    "ATK": 29,
+    "DEF": 5,
+    "Lvl": 1
+  }
+}
