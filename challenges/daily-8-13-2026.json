@@ -1,0 +1,75 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "lair",
+  "steps": 60,
+  "population": 30,
+  "enemypool": [
+    "Simi",
+    "Stranger",
+    "Bayet",
+    "Pessimistick",
+    "Clef",
+    "Ore Gano",
+    "Miyu"
+  ],
+  "floors": 1,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "dark",
+      "Room2": "match1",
+      "Room3": "match1",
+      "Room4": "stairs"
+    },
+    "Floor2": {},
+    "Floor3": {},
+    "Floor4": {},
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 4,
+    "Floor2": 3,
+    "Floor3": 2,
+    "Floor4": 5,
+    "Floor5": 5,
+    "Floor6": 3,
+    "Floor7": 5,
+    "Floor8": 4,
+    "Floor9": 3,
+    "Floor10": 2
+  },
+  "PlayerStats": {
+    "HP": 22,
+    "ATK": 9,
+    "DEF": 16,
+    "Lvl": 3,
+    "VP": 70
+  },
+  "Weather": {
+    "TempF": 28,
+    "TempC": -2,
+    "TempStateF": "moderate cold",
+    "TempStateC": "moderate cold",
+    "Humidity": "very humid",
+    "Wind": "deadly wind",
+    "Season": "Autumn",
+    "Rain": "moderate",
+    "Conditions": [
+      "snow",
+      "thunder",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 545,
+    "ATK": 25,
+    "DEF": 13,
+    "Lvl": 2
+  }
+}
