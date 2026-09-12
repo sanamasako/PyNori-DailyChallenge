@@ -1,0 +1,85 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 60,
+  "population": 8,
+  "enemypool": [
+    "Pessimistick",
+    "Abby See",
+    "Simi",
+    "Drizzly Bear",
+    "Miyu",
+    "Clef",
+    "Bayet",
+    "Stranger",
+    "Ore Gano"
+  ],
+  "floors": 3,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "mirror",
+      "Room2": "dark",
+      "Room3": "guards",
+      "Room4": "stairs"
+    },
+    "Floor2": {
+      "Room1": "memory",
+      "Room2": "mirror",
+      "Room3": "jumps",
+      "Room4": "jumps",
+      "Room5": "stairs"
+    },
+    "Floor3": {
+      "Room1": "spike",
+      "Room2": "match2",
+      "Room3": "stairs"
+    },
+    "Floor4": {},
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 4,
+    "Floor2": 5,
+    "Floor3": 3,
+    "Floor4": 2,
+    "Floor5": 4,
+    "Floor6": 4,
+    "Floor7": 2,
+    "Floor8": 2,
+    "Floor9": 4,
+    "Floor10": 3
+  },
+  "PlayerStats": {
+    "HP": 196,
+    "ATK": 9,
+    "DEF": 7,
+    "Lvl": 1,
+    "VP": 90
+  },
+  "Weather": {
+    "TempF": -19,
+    "TempC": -28,
+    "TempStateF": "extreme cold",
+    "TempStateC": "deadly heat",
+    "Humidity": "very dry",
+    "Wind": "calm",
+    "Season": "Winter",
+    "Rain": "light",
+    "Conditions": [
+      "snow"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 442,
+    "ATK": 9,
+    "DEF": 10,
+    "Lvl": 2
+  }
+}
