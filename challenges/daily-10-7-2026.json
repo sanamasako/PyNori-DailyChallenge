@@ -1,0 +1,93 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 10,
+  "population": 5,
+  "enemypool": [
+    "Optimistick",
+    "Clef",
+    "Pessimistick",
+    "Drizzly Bear",
+    "Miyu",
+    "Bayet",
+    "Stranger",
+    "Siwi",
+    "Ore Gano",
+    "Oh Deer",
+    "Deer God",
+    "Abby See"
+  ],
+  "floors": 5,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "stairs",
+      "Room2": "stairs"
+    },
+    "Floor2": {
+      "Room1": "saws",
+      "Room2": "stairs"
+    },
+    "Floor3": {
+      "Room1": "match1",
+      "Room2": "match1",
+      "Room3": "stairs"
+    },
+    "Floor4": {
+      "Room1": "dark",
+      "Room2": "match2",
+      "Room3": "mirror",
+      "Room4": "stairs"
+    },
+    "Floor5": {
+      "Room1": "booby",
+      "Room2": "match2",
+      "Room3": "stairs"
+    },
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 2,
+    "Floor2": 2,
+    "Floor3": 3,
+    "Floor4": 4,
+    "Floor5": 3,
+    "Floor6": 2,
+    "Floor7": 2,
+    "Floor8": 2,
+    "Floor9": 2,
+    "Floor10": 2
+  },
+  "PlayerStats": {
+    "HP": 271,
+    "ATK": 20,
+    "DEF": 7,
+    "Lvl": 1,
+    "VP": 120
+  },
+  "Weather": {
+    "TempF": 85,
+    "TempC": 29,
+    "TempStateF": "moderate heat",
+    "TempStateC": "moderate heat",
+    "Humidity": "very dry",
+    "Wind": "strong wind",
+    "Season": "Winter",
+    "Rain": "torrential",
+    "Conditions": [
+      "rain",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 421,
+    "ATK": 5,
+    "DEF": 4,
+    "Lvl": 1
+  }
+}
