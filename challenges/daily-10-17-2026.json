@@ -1,0 +1,92 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 60,
+  "population": 30,
+  "enemypool": [
+    "Oh Deer",
+    "Ore Gano",
+    "Abby See",
+    "Bayet"
+  ],
+  "floors": 5,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "guards",
+      "Room2": "dark",
+      "Room3": "stairs"
+    },
+    "Floor2": {
+      "Room1": "jumps",
+      "Room2": "jumps",
+      "Room3": "jumps",
+      "Room4": "memory",
+      "Room5": "stairs"
+    },
+    "Floor3": {
+      "Room1": "saws",
+      "Room2": "booby",
+      "Room3": "jumps",
+      "Room4": "memory",
+      "Room5": "stairs"
+    },
+    "Floor4": {
+      "Room1": "match2",
+      "Room2": "saws",
+      "Room3": "spike",
+      "Room4": "mirror",
+      "Room5": "stairs"
+    },
+    "Floor5": {
+      "Room1": "guards",
+      "Room2": "memory",
+      "Room3": "stairs"
+    },
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 3,
+    "Floor2": 5,
+    "Floor3": 5,
+    "Floor4": 5,
+    "Floor5": 3,
+    "Floor6": 4,
+    "Floor7": 2,
+    "Floor8": 3,
+    "Floor9": 5,
+    "Floor10": 2
+  },
+  "PlayerStats": {
+    "HP": 409,
+    "ATK": 10,
+    "DEF": 5,
+    "Lvl": 1,
+    "VP": 130
+  },
+  "Weather": {
+    "TempF": 25,
+    "TempC": -4,
+    "TempStateF": "moderate cold",
+    "TempStateC": "moderate cold",
+    "Humidity": "very dry",
+    "Wind": "powerful wind",
+    "Season": "Winter",
+    "Rain": "heavy",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 591,
+    "ATK": 21,
+    "DEF": 4,
+    "Lvl": 1
+  }
+}
