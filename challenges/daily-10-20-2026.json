@@ -1,0 +1,104 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "lair",
+  "steps": 80,
+  "population": 16,
+  "enemypool": [
+    "Clef",
+    "Stranger",
+    "Abby See",
+    "Simi"
+  ],
+  "floors": 9,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "saws",
+      "Room2": "saws",
+      "Room3": "jumps",
+      "Room4": "stairs"
+    },
+    "Floor2": {
+      "Room1": "match2",
+      "Room2": "stairs"
+    },
+    "Floor3": {
+      "Room1": "match1",
+      "Room2": "stairs",
+      "Room3": "guards",
+      "Room4": "stairs"
+    },
+    "Floor4": {
+      "Room1": "stairs",
+      "Room2": "stairs"
+    },
+    "Floor5": {
+      "Room1": "saws",
+      "Room2": "stairs"
+    },
+    "Floor6": {
+      "Room1": "guards",
+      "Room2": "booby",
+      "Room3": "booby",
+      "Room4": "stairs",
+      "Room5": "stairs"
+    },
+    "Floor7": {
+      "Room1": "match1",
+      "Room2": "jumps",
+      "Room3": "stairs"
+    },
+    "Floor8": {
+      "Room1": "spike",
+      "Room2": "saws",
+      "Room3": "spike",
+      "Room4": "stairs"
+    },
+    "Floor9": {
+      "Room1": "match2",
+      "Room2": "booby",
+      "Room3": "stairs"
+    },
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 4,
+    "Floor2": 2,
+    "Floor3": 4,
+    "Floor4": 2,
+    "Floor5": 2,
+    "Floor6": 5,
+    "Floor7": 3,
+    "Floor8": 4,
+    "Floor9": 3,
+    "Floor10": 2
+  },
+  "PlayerStats": {
+    "HP": 400,
+    "ATK": 7,
+    "DEF": 18,
+    "Lvl": 3,
+    "VP": 200
+  },
+  "Weather": {
+    "TempF": 64,
+    "TempC": 18,
+    "TempStateF": "mild heat",
+    "TempStateC": "mild heat",
+    "Humidity": "neutral",
+    "Wind": "windy",
+    "Season": "Autumn",
+    "Rain": "heavy",
+    "Conditions": [
+      "rain",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 345,
+    "ATK": 18,
+    "DEF": 18,
+    "Lvl": 3
+  }
+}
