@@ -1,0 +1,83 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 50,
+  "population": 25,
+  "enemypool": [
+    "Abby See",
+    "Bayet",
+    "Ore Gano",
+    "Oh Deer",
+    "Drizzly Bear",
+    "Stranger",
+    "Clef",
+    "Siwi",
+    "Deer God",
+    "Simi"
+  ],
+  "floors": 3,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "mirror",
+      "Room2": "stairs"
+    },
+    "Floor2": {
+      "Room1": "booby",
+      "Room2": "match2",
+      "Room3": "memory",
+      "Room4": "dark",
+      "Room5": "stairs"
+    },
+    "Floor3": {
+      "Room1": "stairs",
+      "Room2": "stairs"
+    },
+    "Floor4": {},
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 2,
+    "Floor2": 5,
+    "Floor3": 2,
+    "Floor4": 2,
+    "Floor5": 3,
+    "Floor6": 3,
+    "Floor7": 3,
+    "Floor8": 5,
+    "Floor9": 2,
+    "Floor10": 3
+  },
+  "PlayerStats": {
+    "HP": 137,
+    "ATK": 4,
+    "DEF": 4,
+    "Lvl": 1,
+    "VP": 170
+  },
+  "Weather": {
+    "TempF": 99,
+    "TempC": 37,
+    "TempStateF": "extreme heat",
+    "TempStateC": "extreme heat",
+    "Humidity": "mildly humid",
+    "Wind": "calm",
+    "Season": "Autumn",
+    "Rain": "heavy",
+    "Conditions": [
+      "rain"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 400,
+    "ATK": 26,
+    "DEF": 12,
+    "Lvl": 2
+  }
+}
