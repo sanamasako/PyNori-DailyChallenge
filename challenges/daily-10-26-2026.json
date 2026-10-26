@@ -1,0 +1,84 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 80,
+  "population": 23,
+  "enemypool": [
+    "Simi",
+    "Miyu",
+    "Ore Gano",
+    "Drizzly Bear"
+  ],
+  "floors": 4,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "spike",
+      "Room2": "match1",
+      "Room3": "dark",
+      "Room4": "jumps",
+      "Room5": "stairs"
+    },
+    "Floor2": {
+      "Room1": "saws",
+      "Room2": "stairs"
+    },
+    "Floor3": {
+      "Room1": "memory",
+      "Room2": "saws",
+      "Room3": "spike",
+      "Room4": "spike",
+      "Room5": "stairs"
+    },
+    "Floor4": {
+      "Room1": "saws",
+      "Room2": "stairs"
+    },
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 5,
+    "Floor2": 2,
+    "Floor3": 5,
+    "Floor4": 2,
+    "Floor5": 4,
+    "Floor6": 4,
+    "Floor7": 5,
+    "Floor8": 5,
+    "Floor9": 4,
+    "Floor10": 2
+  },
+  "PlayerStats": {
+    "HP": 489,
+    "ATK": 14,
+    "DEF": 7,
+    "Lvl": 1,
+    "VP": 150
+  },
+  "Weather": {
+    "TempF": 4,
+    "TempC": -16,
+    "TempStateF": "moderate cold",
+    "TempStateC": "moderate cold",
+    "Humidity": "very humid",
+    "Wind": "deadly wind",
+    "Season": "Autumn",
+    "Rain": "moderate",
+    "Conditions": [
+      "snow",
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 408,
+    "ATK": 16,
+    "DEF": 28,
+    "Lvl": 4
+  }
+}
