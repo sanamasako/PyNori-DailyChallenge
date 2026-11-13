@@ -1,0 +1,90 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 90,
+  "population": 30,
+  "enemypool": [
+    "Ore Gano",
+    "Clef",
+    "Optimistick",
+    "Bayet"
+  ],
+  "floors": 7,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "dark",
+      "Room2": "mirror",
+      "Room3": "stairs"
+    },
+    "Floor2": {
+      "Room1": "guards",
+      "Room2": "stairs"
+    },
+    "Floor3": {
+      "Room1": "jumps",
+      "Room2": "stairs",
+      "Room3": "guards",
+      "Room4": "stairs"
+    },
+    "Floor4": {
+      "Room1": "memory",
+      "Room2": "stairs"
+    },
+    "Floor5": {
+      "Room1": "mirror",
+      "Room2": "stairs"
+    },
+    "Floor6": {
+      "Room1": "memory",
+      "Room2": "stairs"
+    },
+    "Floor7": {
+      "Room1": "saws",
+      "Room2": "dark",
+      "Room3": "stairs"
+    },
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 3,
+    "Floor2": 2,
+    "Floor3": 4,
+    "Floor4": 2,
+    "Floor5": 2,
+    "Floor6": 2,
+    "Floor7": 3,
+    "Floor8": 3,
+    "Floor9": 3,
+    "Floor10": 2
+  },
+  "PlayerStats": {
+    "HP": 172,
+    "ATK": 14,
+    "DEF": 3,
+    "Lvl": 1,
+    "VP": 140
+  },
+  "Weather": {
+    "TempF": 0,
+    "TempC": -18,
+    "TempStateF": "moderate cold",
+    "TempStateC": "extreme cold",
+    "Humidity": "mildly dry",
+    "Wind": "windy",
+    "Season": "Summer",
+    "Rain": "none",
+    "Conditions": [
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 443,
+    "ATK": 8,
+    "DEF": 25,
+    "Lvl": 4
+  }
+}
