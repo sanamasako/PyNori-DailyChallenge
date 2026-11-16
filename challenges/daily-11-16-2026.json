@@ -1,0 +1,77 @@
+{
+  "difficult": "false",
+  "verified": "false",
+  "verifier": "None",
+  "type": "overworld",
+  "steps": 80,
+  "population": 20,
+  "enemypool": [
+    "Ore Gano",
+    "Stranger",
+    "Miyu",
+    "Siwi"
+  ],
+  "floors": 3,
+  "FloorData": {
+    "Floor1": {
+      "Room1": "stairs",
+      "Room2": "stairs"
+    },
+    "Floor2": {
+      "Room1": "mirror",
+      "Room2": "stairs"
+    },
+    "Floor3": {
+      "Room1": "match1",
+      "Room2": "jumps",
+      "Room3": "saws",
+      "Room4": "stairs",
+      "Room5": "stairs"
+    },
+    "Floor4": {},
+    "Floor5": {},
+    "Floor6": {},
+    "Floor7": {},
+    "Floor8": {},
+    "Floor9": {},
+    "Floor10": {}
+  },
+  "FloorRooms": {
+    "Floor1": 2,
+    "Floor2": 2,
+    "Floor3": 5,
+    "Floor4": 4,
+    "Floor5": 3,
+    "Floor6": 3,
+    "Floor7": 3,
+    "Floor8": 4,
+    "Floor9": 4,
+    "Floor10": 5
+  },
+  "PlayerStats": {
+    "HP": 119,
+    "ATK": 12,
+    "DEF": 15,
+    "Lvl": 2,
+    "VP": 60
+  },
+  "Weather": {
+    "TempF": 61,
+    "TempC": 16,
+    "TempStateF": "mild heat",
+    "TempStateC": "mild heat",
+    "Humidity": "very humid",
+    "Wind": "powerful wind",
+    "Season": "Winter",
+    "Rain": "none",
+    "Conditions": [
+      "wind"
+    ]
+  },
+  "CustomEnemy": {
+    "HP": 787,
+    "ATK": 10,
+    "DEF": 12,
+    "Lvl": 2
+  }
+}
